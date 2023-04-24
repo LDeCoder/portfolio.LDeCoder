@@ -124,7 +124,7 @@ header .strengths .list .five{
   color: var(--main-teal-color);
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .box {
@@ -168,10 +168,32 @@ header .strengths .list .five{
 
 .aboutMe h1 {
   font-family: 'Great Vibes', cursive;
-  color: white;
+  color: var(--main-pink-color);
   font-size: 3em;
   z-index: 25;
-  justify-content: space-evenly;
+  margin-left: 10px;
+  /* justify-content: space-between; */
+}
+
+
+.aboutMe .skillsList {
+  text-align: left;
+  list-style: none;
+}
+
+.aboutMe .skill {
+  text-align: left;
+  list-style: none;
+}
+
+.aboutMe .workHistory {
+  text-align: right;
+  list-style: none;
+}
+
+.aboutMe .history {
+  text-align: right;
+  list-style: none;
 }
 
 .borderProjects {

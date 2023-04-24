@@ -50,6 +50,7 @@ header .strengths .info{
 
 header .myInfo {
   font: var(--main-teal-color);
+  text-align: left;
 }
 
 header .strengths .info .one{
@@ -264,7 +265,7 @@ header .strengths .list .five{
 .contactMe .triangle{
   width: 0;
   height: 0;
-  margin-left: 3%; 
+  margin-left: 33%; 
   margin-top: 10%;
   border-left: 900px solid transparent;
   border-right: 0px solid transparent;
@@ -275,7 +276,7 @@ header .strengths .list .five{
 .contactMe .triangle2{
   width: 0;
   height: 0;
-  margin-left: -74%; 
+  margin-left: -50%; 
   margin-top: 10%;
   /* margin-top: -15%; */
   border-left: 700px solid transparent;
@@ -287,7 +288,7 @@ header .strengths .list .five{
 .contactMe .triangle3{
   width: 0;
   height: 0;
-  margin-left: -84.5%; 
+  margin-left: -57%; 
   margin-top: 10%;
   /* margin-top: -15%; */
   border-left: 800px solid transparent;
@@ -297,10 +298,11 @@ header .strengths .list .five{
 } 
 
 .contactMe .contactInfo {
-  margin-left: 40%;
-  margin-top: 10%;
+  margin-right: 5%;
+  margin-top: -10%;
   z-index: 0;
   font-size: 1.5em;
-  color: white;;
-  text-justify: center;
+  color: var(--main-teal-color);
+  text-align: right;
+  list-style: none;
 }

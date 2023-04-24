@@ -111,12 +111,12 @@ header .strengths .list .five{
   background-color: var(--main-blue-color);
   height: 15px;
   margin-top: -10px;
+  margin-bottom: 5%;
   border: none;
 }
 
 
 .aboutMe {
-  /* background-color: indigo; */
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -128,37 +128,33 @@ header .strengths .list .five{
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: space-around;
-  z-index: 0;
 }
 
 .box {
-  /* border-radius: 25px; */
   background: var(--main-teal-color);
-  padding: 20px;
+  padding: 10px;
   width: 150px;
   height: 150px;
-  z-index: -5;
+  z-index: -7;
 }
 
 .box2 {
-  /* border-radius: 25px; */
   background: var(--main-pink-color);
-  padding: 20px;
+  padding: 10px;
   width: 150px;
   height: 150px;
   rotate: 25deg;
-  margin-top: -80%;
-  z-index: -3;
+  margin-top: -95%;
+  z-index: -6;
 }
 
 .box3 {
-  /* border-radius: 25px; */
   background: var(--main-blue-color);
-  padding: 20px;
+  padding: 10px;
   width: 150px;
   height: 150px;
   rotate: 50deg;
-  margin-top: -80%;
+  margin-top: -95%;
   z-index: -8;
 }
 
@@ -168,18 +164,17 @@ header .strengths .list .five{
   color: var(--main-pink-color);
   display: flex;
   justify-content: space-around;
-  z-index: 25;
 }
 
 .aboutMe h1 {
   font-family: 'Great Vibes', cursive;
   color: white;
   font-size: 3em;
-
+  z-index: 25;
+  justify-content: space-around;
 }
 
 .borderProjects {
-  /* margin-top: -50px; */
   border: none;
 }
 
@@ -206,7 +201,7 @@ header .strengths .list .five{
 .borderProjects .projects {
   font-family: 'Great Vibes', cursive;
   font-size: 7em;
-  margin-top: -150px;
+  margin-top: -120px;
   text-align: center;
 }
 
@@ -222,12 +217,9 @@ header .strengths .list .five{
 
 .myProjects .title{
   font-family: 'Great Vibes', serif;
-  font-family: 'Orbitron', sans-serif;
-/* font-family: 'Orbitron', sans-serif; */
   font-size: 3em;
   margin-bottom: -25px;
   color: var(--main-teal-color);
-
 }
 
 .myProjects .line7 {
@@ -253,66 +245,62 @@ header .strengths .list .five{
   border: none;
 }
 
-.myProjects .projects {
-  font-family: cursive;
-  font-size: 7em;
+/* .myProjects .projects {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4em;
   margin-top: -150px;
   text-align: center;
-}
+} */
 /* 
 .contactMe {
   z-index: 0;
 } */
 
-/* .contactMe .triangle{
-    width: 0;
-    height: 0;
-    margin-top: -20%;
-    margin-left: 10%;
-    border-left: 1500px solid transparent;
-    border-right: 0px solid transparent;
-    border-bottom: 400px solid var(--main-teal-color);
-    z-index: -3;
-} */
+.contactMe .triangles{
+  display: flex;
+  align-items: bottom;
+}
+
+.contactMe .triangle{
+  width: 0;
+  height: 0;
+  margin-left: 3%; 
+  margin-top: 10%;
+  border-left: 900px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 400px solid var(--main-teal-color);
+  z-index: -4;  
+} 
 
 .contactMe .triangle2{
   width: 0;
   height: 0;
-  margin-left: 10%;
+  margin-left: -74%; 
+  margin-top: 10%;
   /* margin-top: -15%; */
-  border-left: 1500px solid transparent;
+  border-left: 700px solid transparent;
   border-right: 0px solid transparent;
   border-bottom: 400px solid var(--main-blue-color);
-  z-index: -2;
-}
+  z-index: -2;  
+} 
 
-/* .contactMe .triangle3{
+.contactMe .triangle3{
   width: 0;
   height: 0;
-  margin-left: 10%;
-  margin-top: -20%;
-  border-left: 1500px solid transparent;
+  margin-left: -84.5%; 
+  margin-top: 10%;
+  /* margin-top: -15%; */
+  border-left: 800px solid transparent;
   border-right: 0px solid transparent;
-  border-bottom: 400px solid var(--main-blue-color);
-  z-index: -4; 
-} */
-
-/* .contactMe .triangle3{
-  width: 0;
-  height: 0;
-  margin-right: 5%;
-  /* margin-top: 0%; */
-  /* border-right: 1500px solid transparent;
-  border-left: 0px solid transparent;
   border-bottom: 400px solid var(--main-pink-color);
-  z-index: -1; 
-}  */
+  z-index: -3;  
+} 
 
 .contactMe .contactInfo {
+  margin-left: 40%;
+  margin-top: 10%;
   z-index: 0;
   font-size: 1.5em;
-  color: white;
-  display: flex;
-  justify-content: right;
-  margin-top: -3%;
+  color: white;;
+  text-justify: center;
 }

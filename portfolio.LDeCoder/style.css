@@ -1,3 +1,6 @@
+
+
+
 body {
   background-color: lightgray;
   color: white;
@@ -169,9 +172,10 @@ header .strengths .list .five{
 }
 
 .aboutMe h1 {
-  font-family: cursive;
+  font-family: 'Great Vibes', cursive;
   color: white;
   font-size: 3em;
+
 }
 
 .borderProjects {
@@ -200,7 +204,7 @@ header .strengths .list .five{
 }
 
 .borderProjects .projects {
-  font-family: cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 7em;
   margin-top: -150px;
   text-align: center;
@@ -217,10 +221,13 @@ header .strengths .list .five{
 }
 
 .myProjects .title{
-  font-family: cursive;
+  font-family: 'Great Vibes', serif;
+  font-family: 'Orbitron', sans-serif;
+/* font-family: 'Orbitron', sans-serif; */
   font-size: 3em;
   margin-bottom: -25px;
   color: var(--main-teal-color);
+
 }
 
 .myProjects .line7 {

@@ -286,7 +286,7 @@ header .strengths .list .five{
 .contactMe .triangle{
   width: 0;
   height: 0;
-  margin-left: 33%; 
+  margin-left: 46%; 
   margin-top: 10%;
   border-left: 900px solid transparent;
   border-right: 0px solid transparent;
@@ -297,7 +297,7 @@ header .strengths .list .five{
 .contactMe .triangle2{
   width: 0;
   height: 0;
-  margin-left: -50%; 
+  margin-left: -42%; 
   margin-top: 10%;
   /* margin-top: -15%; */
   border-left: 700px solid transparent;
@@ -309,7 +309,7 @@ header .strengths .list .five{
 .contactMe .triangle3{
   width: 0;
   height: 0;
-  margin-left: -57%; 
+  margin-left: -48%; 
   margin-top: 10%;
   /* margin-top: -15%; */
   border-left: 800px solid transparent;
@@ -318,16 +318,21 @@ header .strengths .list .five{
   z-index: -3;  
 } 
 
+
+.contactMe .title {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+}
+
 .contactMe .contactInfo {
-  margin-right: 5%;
-  margin-top: -10%;
+  margin-right: 2%;
+  margin-top: -15%;
   z-index: 0;
   font-size: 1.5em;
-  color: var(--main-teal-color);
+  color: white;
   text-align: right;
   list-style: none;
 }
-
 
 /* .box {
   animation: mymove 5s infinite;

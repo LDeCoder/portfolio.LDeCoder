@@ -278,17 +278,6 @@ header .strengths .list .five{
   border: none;
 }
 
-/* .myProjects .projects {
-  font-family: 'Great Vibes', cursive;
-  font-size: 4em;
-  margin-top: -150px;
-  text-align: center;
-} */
-/* 
-.contactMe {
-  z-index: 0;
-} */
-
 .contactMe .triangles{
   display: flex;
   align-items: bottom;

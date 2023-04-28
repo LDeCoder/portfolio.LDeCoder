@@ -20,8 +20,8 @@ body {
 header {
   margin-top: 20px;
   margin-bottom: 50px;
-  height: 25vh;
-  width: cover;
+  height: 25%;
+  /* width: cover; */
   background: white;
   /* overflow: hidden; */
   display: flex;
@@ -56,7 +56,7 @@ header .myInfo {
 header .strengths .info .one{
   color: var(--main-teal-color);
   display: flex;
-  justify-content: right;
+  text-align: right;
   margin-top: 3%;
   font-size: 2.5em;
 }
@@ -120,7 +120,7 @@ header .strengths .list .five{
 }
 
 .aboutMe .decor {
-  font-size: 5em;
+  /* font-size: 5em; */
   color: var(--main-teal-color);
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -141,7 +141,7 @@ header .strengths .list .five{
   /* padding: 10px; */
   width: 55px;
   height: 55px;
-  rotate: 25deg;
+  rotate: 15deg;
   margin-top: -100%;
   z-index: -6;
   animation: revRotation 10s infinite;
@@ -152,8 +152,8 @@ header .strengths .list .five{
   /* padding: 10px; */
   width: 55px;
   height: 55px;
-  rotate: 50deg;
-  margin-top: -100%;
+  rotate: 25deg;
+  margin-top: -90%;
   z-index: -8;
   animation: rotation 10s infinite;
 }
@@ -194,6 +194,11 @@ header .strengths .list .five{
 .aboutMe .history {
   text-align: right;
   list-style: none;
+}
+
+.onHover:hover {
+  color: blue;
+  font-size: 2em;
 }
 
 .borderProjects {
@@ -320,13 +325,15 @@ header .strengths .list .five{
 
 
 .contactMe .title {
+  margin-top: -15%;
   color: white;
   font-family: 'Great Vibes', cursive;
+  font-size: 2em;
 }
 
 .contactMe .contactInfo {
   margin-right: 2%;
-  margin-top: -15%;
+  margin-top: -10%;
   z-index: 0;
   font-size: 1.5em;
   color: white;

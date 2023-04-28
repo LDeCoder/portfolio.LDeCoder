@@ -196,9 +196,15 @@ header .strengths .list .five{
   list-style: none;
 }
 
-.onHover:hover {
-  color: blue;
-  font-size: 2em;
+.onHover {
+  display: none;
+  transition: ease-in;
+}
+
+.item:hover + .onHover {
+  display: block;
+  color: var(--main-blue-color);
+  font-size: 1em;
 }
 
 .borderProjects {
@@ -239,7 +245,7 @@ header .strengths .list .five{
   width: 100%;
   display: flex;
   direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .myProjects .title{

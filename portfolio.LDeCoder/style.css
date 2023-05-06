@@ -7,7 +7,7 @@ body {
   font-family: 'Mulish', sans-serif;
   display: flex;
   flex-direction: column;
-  /* height: 100vh; */
+  width: 100vw;
 } 
 
 :root {
@@ -18,13 +18,13 @@ body {
 
 
 header {
-  margin-top: 20px;
-  margin-bottom: 50px;
+  padding: 30px;
   height: 25%;
   /* width: cover; */
   background: white;
   /* overflow: hidden; */
-  display: flex;
+  display: flex-end;
+  overflow: hidden;
 }
 
 header .loriLogo{
@@ -38,6 +38,7 @@ header .strengths .list{
   display: flex;
   justify-content: space-between;
   font-size: 30px;
+  /* width: 100vh; */
 }
 
 header .strengths .info{
@@ -89,6 +90,7 @@ header .strengths .list .five{
 .border {
   margin-top: -50px;
   border: none;
+  width: 100vw;
 }
 
 .border .line1 {
@@ -150,54 +152,47 @@ header .strengths .list .five{
   animation: rotation 10s infinite;
 }
 
-/* .aboutMe .skillsInfo{
-  margin-top: 2%;
-  font-size: 1.5em;
-  color: var(--main-pink-color);
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  width: 100%;
-} */
 
 .aboutMe {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
-/* 
-.aboutMe .WorkInfo{
+
+.aboutMe .skillsInfo {
+  margin-top: 5%;
+}
+
+.aboutMe .workInfo {
+  margin-top: 15%;
+}
+
+.mySkills {
+  display: flex;
+  list-style: none;
+}
+
+
+.aboutMe h1 {
   margin-top: 2%;
-  font-size: 1.5em;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5em;
   color: var(--main-pink-color);
   display: flex;
   justify-content: space-evenly;
   list-style: none;
   width: 100%;
-} */
-
-.aboutMe h1 {
-  font-family: 'Great Vibes', cursive;
-  color: var(--main-pink-color);
-  font-size: 2.5em;
-  z-index: 25;
-  text-align: center;
-  margin-top: 30px;
 }
 
-.aboutMe {
-  display: flex;
-  justify-content: center;
-  align-items: space-evenly;
-  width: 100%;
-} 
-/* 
- .workInfo {
-  display: flex;
-  justify-content: right;
-  list-style:none;
-  width: 100%;
-} */
+.skills {
+  margin-top: 20%;
+    padding: 4%;
+  overflow: hidden;
+}
+
+
+
 
 .collapsible {
   background-color: lightgray;
@@ -238,7 +233,7 @@ header .strengths .list .five{
   align-items: right;
   padding: 0 8px;
   max-height: 0;
-  max-width: 100%;
+  max-width: 50%;
   overflow: hidden;
   transition: max-height 3s ease-out;
 }
@@ -246,13 +241,18 @@ header .strengths .list .five{
 .contentButton {
   display: flex;
   align-items: center;
-  /* padding: 0 8px; */
+  padding: 0 8px;
   max-height: 0;
   max-width: 100%;
-  /* margin-top: 20px; */
+  margin-top: 20px;
   overflow: hidden;
   transition: max-height 3s ease-out;
 } 
+
+
+
+
+
 
 .borderProjects {
   border: none;

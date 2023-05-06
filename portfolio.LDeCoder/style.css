@@ -43,9 +43,9 @@ header .strengths .list{
 header .strengths .info{
   color: var(--main-teal-color);
   font-size: 1.5em;
-  margin-left: 10%;
+  margin-right: 3%;
   margin-top: -3%;
-  justify-content: right;
+  text-align: right;
 }
 
 header .myInfo {

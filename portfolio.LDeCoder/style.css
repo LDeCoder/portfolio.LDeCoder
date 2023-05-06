@@ -112,15 +112,7 @@ header .strengths .list .five{
   border: none;
 }
 
-
-.aboutMe {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.aboutMe .decor {
-  /* font-size: 5em; */
+.decor {
   color: var(--main-teal-color);
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -158,54 +150,109 @@ header .strengths .list .five{
   animation: rotation 10s infinite;
 }
 
-.aboutMe .skillsInfo{
-  /* margin-top: 10%; */
+/* .aboutMe .skillsInfo{
+  margin-top: 2%;
   font-size: 1.5em;
   color: var(--main-pink-color);
   display: flex;
   justify-content: space-evenly;
+  list-style: none;
+  width: 100%;
+} */
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+/* 
+.aboutMe .WorkInfo{
+  margin-top: 2%;
+  font-size: 1.5em;
+  color: var(--main-pink-color);
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 100%;
+} */
 
 .aboutMe h1 {
   font-family: 'Great Vibes', cursive;
   color: var(--main-pink-color);
-  font-size: 3em;
+  font-size: 2.5em;
   z-index: 25;
-  margin-left: 10px;
-  /* justify-content: space-between; */
+  text-align: center;
+  margin-top: 30px;
 }
 
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
+  width: 100%;
+} 
+/* 
+ .workInfo {
+  display: flex;
+  justify-content: right;
+  list-style:none;
+  width: 100%;
+} */
 
-.aboutMe .skillsList {
-  text-align: left;
-  list-style: none;
-}
-
-.aboutMe .skill {
-  text-align: left;
-  list-style: none;
-}
-
-.aboutMe .workExperience {
-  text-align: right;
-  list-style: none;
-}
-
-.aboutMe .history {
-  text-align: right;
-  list-style: none;
-}
-
-.onHover {
-  display: none;
-  transition: ease-in;
-}
-
-.item:hover + .onHover {
-  display: block;
-  color: var(--main-blue-color);
+.collapsible {
+  background-color: lightgray;
+  color: var(--main-pink-color);
+  cursor: pointer;
+  padding: 8px;
+  width: 50%;
+  border: none;
+  text-align: center;
+  outline: none;
   font-size: 1em;
 }
+
+.collapsibleButton {
+  background-color: lightgray;
+  color: var(--main-pink-color);
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+}
+
+.active, .collapsible:hover {
+  background-color: var(--main-pink-color);
+  color: white;
+}
+
+.active, .collapsibleButton:hover {
+  background-color: var(--main-pink-color);
+  color: white;
+}
+
+.content {
+  display: flex;
+  align-items: right;
+  padding: 0 8px;
+  max-height: 0;
+  max-width: 100%;
+  overflow: hidden;
+  transition: max-height 3s ease-out;
+}
+
+.contentButton {
+  display: flex;
+  align-items: center;
+  /* padding: 0 8px; */
+  max-height: 0;
+  max-width: 100%;
+  /* margin-top: 20px; */
+  overflow: hidden;
+  transition: max-height 3s ease-out;
+} 
 
 .borderProjects {
   border: none;

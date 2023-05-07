@@ -23,7 +23,7 @@ for (x = 0; x < collB.length; x++) {
     if (contentButton.style.maxHeight){
       contentButton.style.maxHeight = null;
     } else {
-      contentButton.style.maxHeight = contentButton.scrollHeight + "px";
+      contentButton.style.maxHeight = contentButton.scrollHeight + 100 + "px";
     } 
   });
 }

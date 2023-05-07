@@ -153,11 +153,19 @@ header .strengths .list .five{
 }
 
 
+
+
+
+
+
+
+
 .aboutMe {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 20px;
 }
 
 .aboutMe .skillsInfo {
@@ -165,13 +173,9 @@ header .strengths .list .five{
 }
 
 .aboutMe .workInfo {
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
-.mySkills {
-  display: flex;
-  list-style: none;
-}
 
 
 .aboutMe h1 {
@@ -180,18 +184,17 @@ header .strengths .list .five{
   font-size: 2.5em;
   color: var(--main-pink-color);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   list-style: none;
   width: 100%;
 }
 
-.skills {
+
+.skillsListed {
   margin-top: 20%;
-    padding: 4%;
-  overflow: hidden;
+    padding: 24%;
+  /* overflow: hidden; */
 }
-
-
 
 
 .collapsible {
@@ -213,7 +216,7 @@ header .strengths .list .five{
   padding: 8px;
   width: 100%;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
   font-size: 1em;
 }
@@ -229,16 +232,18 @@ header .strengths .list .five{
 }
 
 .content {
+  color: var(--main-pink-color);
   display: flex;
-  align-items: right;
+  text-align: center;
   padding: 0 8px;
   max-height: 0;
-  max-width: 50%;
+  max-width: 100%;
   overflow: hidden;
   transition: max-height 3s ease-out;
 }
 
 .contentButton {
+  color: var(--main-pink-color);
   display: flex;
   align-items: center;
   padding: 0 8px;

@@ -14,6 +14,7 @@ body {
   --main-blue-color: #3D58A7;
   --main-pink-color: #91268f;
   --main-teal-color: #15BCBE;
+  --main-navy-color: #050557;
 }
 
 
@@ -121,9 +122,8 @@ header .strengths .list .five{
   justify-content: space-evenly;
 }
 
-.box {
+/* .box {
   background: var(--main-teal-color);
-  /* padding: 10px; */
   width: 55px;
   height: 55px;
   z-index: -7;
@@ -132,7 +132,6 @@ header .strengths .list .five{
 
 .box2 {
   background: var(--main-pink-color);
-  /* padding: 10px; */
   width: 55px;
   height: 55px;
   rotate: 15deg;
@@ -143,14 +142,13 @@ header .strengths .list .five{
 
 .box3 {
   background: var(--main-blue-color);
-  /* padding: 10px; */
   width: 55px;
   height: 55px;
   rotate: 25deg;
   margin-top: -90%;
   z-index: -8;
   animation: rotation 10s infinite;
-}
+} */
 
 
 
@@ -172,21 +170,25 @@ header .strengths .list .five{
   margin-top: 5%;
 }
 
-.aboutMe .workInfo {
+/* .aboutMe .workInfo {
   margin-top: 5%;
-}
+} */
 
 
 
 .aboutMe h1 {
   margin-top: 2%;
   font-family: 'Great Vibes', cursive;
-  font-size: 2.5em;
+  font-size: 3.5em;
   color: var(--main-pink-color);
   display: flex;
   justify-content: center;
   list-style: none;
   width: 100%;
+}
+
+.skillsInfo {
+  color: var(--main-pink-color);
 }
 
 
@@ -233,9 +235,10 @@ header .strengths .list .five{
 
 .content {
   color: var(--main-pink-color);
+  font-size: 1em;
   display: flex;
   text-align: center;
-  padding: 0 8px;
+  padding: 0 15px;
   max-height: 0;
   max-width: 100%;
   overflow: hidden;
@@ -257,6 +260,75 @@ header .strengths .list .five{
 
 
 
+.box4 {
+  background:  var(--main-pink-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: -7;
+  animation: rotation 10s infinite;
+}
+
+.box5 {
+  background: var(--main-teal-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  rotate: 30deg;
+  margin-top: -12%;
+  z-index: -6;
+  animation: revRotation 10s infinite;
+}
+
+.box6 {
+  background: var(--main-blue-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  rotate: 60deg;
+  margin-top: -10%;
+  z-index: -8;
+  animation: rotation 10s infinite;
+}
+
+.box7 {
+  background: var(--main-teal-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: -15%;
+  rotate: 125deg;
+  z-index: -7;
+  animation: revRotation 10s infinite;
+}
+
+.box8 {
+  background: var(--main-pink-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  rotate: 90deg;
+  margin-top: -10%;
+  z-index: -6;
+  animation: revRotation 10s infinite;
+}
+
+.box9 {
+  background: var(--main-blue-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  rotate: 155deg;
+  margin-top: -10%;
+  z-index: -8;
+  animation: rotation 10s infinite;
+}
 
 
 .borderProjects {
@@ -329,6 +401,15 @@ header .strengths .list .five{
   margin-top: -10px;
   border: none;
 }
+
+.projectInfo {
+  color: var(--main-navy-color);
+  font-size: 1em;
+}
+
+
+
+
 
 .contactMe .triangles{
   display: flex;

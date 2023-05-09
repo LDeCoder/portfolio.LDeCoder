@@ -122,38 +122,6 @@ header .strengths .list .five{
   justify-content: space-evenly;
 }
 
-/* .box {
-  background: var(--main-teal-color);
-  width: 55px;
-  height: 55px;
-  z-index: -7;
-  animation: rotation 10s infinite;
-}
-
-.box2 {
-  background: var(--main-pink-color);
-  width: 55px;
-  height: 55px;
-  rotate: 15deg;
-  margin-top: -100%;
-  z-index: -6;
-  animation: revRotation 10s infinite;
-}
-
-.box3 {
-  background: var(--main-blue-color);
-  width: 55px;
-  height: 55px;
-  rotate: 25deg;
-  margin-top: -90%;
-  z-index: -8;
-  animation: rotation 10s infinite;
-} */
-
-
-
-
-
 
 
 
@@ -469,22 +437,7 @@ header .strengths .list .five{
   list-style: none;
 }
 
-/* .box {
-  animation: mymove 5s infinite;
-} */
-/* animation: mymove 5s infinite */
-@keyframes mymove {
-  from {left: 0px;}
-  to {left: 200px;}
-}
-@keyframes myothermove {
-  from {top: 0px;}
-  to {top: 200px;}
-}
-@keyframes mylastmove {
-  from {background-color: red;}
-  to {background-color: blue;}
-} 
+
 
 @keyframes rotation {
     from {
@@ -503,3 +456,11 @@ header .strengths .list .five{
       transform: rotate(0deg);
     }
   }
+
+  
+
+  /* media 
+
+  .triangle: size is smaller
+  .triangle2: display none
+  .triangle3: display none */

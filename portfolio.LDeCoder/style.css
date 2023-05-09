@@ -379,12 +379,12 @@ header .strengths .list .five{
 
 
 
-.contactMe .triangles{
+#contactMe .triangles{
   display: flex;
   align-items: bottom;
 }
 
-.contactMe .triangle{
+#contactMe .triangle{
   width: 0;
   height: 0;
   margin-left: 46%; 
@@ -395,7 +395,7 @@ header .strengths .list .five{
   z-index: -4;  
 } 
 
-.contactMe .triangle2{
+#contactMe .triangle2{
   width: 0;
   height: 0;
   margin-left: -42%; 
@@ -407,7 +407,7 @@ header .strengths .list .five{
   z-index: -2;  
 } 
 
-.contactMe .triangle3{
+#contactMe .triangle3{
   width: 0;
   height: 0;
   margin-left: -48%; 
@@ -420,14 +420,14 @@ header .strengths .list .five{
 } 
 
 
-.contactMe .title {
+#contactMe .title {
   margin-top: -15%;
   color: white;
   font-family: 'Great Vibes', cursive;
   font-size: 2em;
 }
 
-.contactMe .contactInfo {
+#contactMe .contactInfo {
   margin-right: 2%;
   margin-top: -10%;
   z-index: 0;

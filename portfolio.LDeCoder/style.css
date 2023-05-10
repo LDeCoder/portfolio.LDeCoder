@@ -30,7 +30,7 @@ header {
 
 header .loriLogo{
   height: 70%;
-  margin-top: 10px;
+  margin: 10px;
   padding: 10px;
 }
 
@@ -39,15 +39,15 @@ header .strengths .list{
   display: flex;
   justify-content: space-between;
   font-size: 30px;
-  /* width: 100vh; */
 }
 
 header .strengths .info{
   color: var(--main-teal-color);
   font-size: 1.5em;
-  margin-right: 3%;
-  margin-top: -3%;
+  margin-right: 1%;
+  margin-left: 29%;
   text-align: right;
+  width: 70%;
 }
 
 header .myInfo {
@@ -134,15 +134,10 @@ header .strengths .list .five{
   padding: 20px;
 }
 
-.aboutMe .skillsInfo {
+.skillsInfo {
   margin-top: 5%;
+  color: var(--main-pink-color);
 }
-
-/* .aboutMe .workInfo {
-  margin-top: 5%;
-} */
-
-
 
 .aboutMe h1 {
   margin-top: 2%;
@@ -155,15 +150,16 @@ header .strengths .list .five{
   width: 100%;
 }
 
-.skillsInfo {
-  color: var(--main-pink-color);
-}
-
 
 .skillsListed {
   margin-top: 20%;
-    padding: 24%;
-  /* overflow: hidden; */
+  padding: 24%;
+  font-size: 1em;
+}
+
+
+.skillsList {
+  font-size: 1.5em;
 }
 
 
@@ -171,12 +167,12 @@ header .strengths .list .five{
   background-color: lightgray;
   color: var(--main-pink-color);
   cursor: pointer;
-  padding: 8px;
+  padding: 18px;
   width: 50%;
   border: none;
   text-align: center;
   outline: none;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .collapsibleButton {
@@ -203,10 +199,10 @@ header .strengths .list .five{
 
 .content {
   color: var(--main-pink-color);
-  font-size: 1em;
-  display: flex;
+  font-size: 1.5em;
+  /* display: flex; */
   text-align: center;
-  padding: 0 15px;
+  padding: 0 25px;
   max-height: 0;
   max-width: 100%;
   overflow: hidden;
@@ -215,6 +211,7 @@ header .strengths .list .five{
 
 .contentButton {
   color: var(--main-pink-color);
+  font-size: 1em;
   display: flex;
   align-items: center;
   padding: 0 8px;
@@ -379,55 +376,56 @@ header .strengths .list .five{
 
 
 
-#contactMe .triangles{
-  display: flex;
-  align-items: bottom;
+.triangles{
+  position: fixed right bottom;
 }
 
-#contactMe .triangle{
+.triangle{
   width: 0;
   height: 0;
-  margin-left: 46%; 
-  margin-top: 10%;
-  border-left: 900px solid transparent;
+  margin-left: 57%; 
+  /* margin-top: 10%; */
+  border-left: 700px solid transparent;
   border-right: 0px solid transparent;
-  border-bottom: 400px solid var(--main-teal-color);
+  border-bottom: 440px solid var(--main-teal-color);
+  position: relative;
   z-index: -4;  
 } 
 
-#contactMe .triangle2{
+.triangle2{
   width: 0;
   height: 0;
-  margin-left: -42%; 
-  margin-top: 10%;
+  margin-left: 57%; 
+  margin-top: -25%;
   /* margin-top: -15%; */
   border-left: 700px solid transparent;
   border-right: 0px solid transparent;
-  border-bottom: 400px solid var(--main-blue-color);
+  border-bottom: 420px solid var(--main-blue-color);
   z-index: -2;  
 } 
 
-#contactMe .triangle3{
+.triangle3{
   width: 0;
   height: 0;
-  margin-left: -48%; 
-  margin-top: 10%;
+  margin-left: 57%; 
+  margin-top: -24%;
   /* margin-top: -15%; */
-  border-left: 800px solid transparent;
+  border-left: 700px solid transparent;
   border-right: 0px solid transparent;
   border-bottom: 400px solid var(--main-pink-color);
+  /* position: absolute; */
   z-index: -3;  
 } 
 
 
-#contactMe .title {
+.title {
   margin-top: -15%;
   color: white;
   font-family: 'Great Vibes', cursive;
   font-size: 2em;
 }
 
-#contactMe .contactInfo {
+.contactInfo {
   margin-right: 2%;
   margin-top: -10%;
   z-index: 0;
@@ -435,6 +433,10 @@ header .strengths .list .five{
   color: white;
   text-align: right;
   list-style: none;
+}
+
+a {
+  color: white;
 }
 
 
@@ -458,6 +460,22 @@ header .strengths .list .five{
   }
 
   
+  @media screen and (max-width: 1500px) {
+    header .strengths .list {
+      display: flex;
+      text-justify: center;
+      font-size: 1em;
+    }
+
+    .triangles {
+      display: none;
+    }
+
+    .contactInfo, .title {
+      margin-top: 5%;
+      color: var(--main-pink-color);
+    }
+  }
 
   /* media 
 

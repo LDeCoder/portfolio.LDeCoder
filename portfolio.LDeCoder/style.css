@@ -222,6 +222,10 @@ header .strengths .list .five{
   transition: max-height 3s ease-out;
 } 
 
+.youGetMe {
+  list-style: none;
+}
+
 
 
 

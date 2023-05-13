@@ -226,6 +226,10 @@ header .strengths .list .five{
   list-style: none;
 }
 
+.youGetMe li {
+  padding: 10px;
+}
+
 
 
 
@@ -297,6 +301,83 @@ header .strengths .list .five{
   margin-top: -10%;
   z-index: -8;
   animation: rotation 10s infinite;
+}
+
+
+
+
+
+
+
+
+.box4x {
+  background:  var(--main-pink-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: -7;
+  animation: revRotationX 15s infinite;
+}
+
+.box5y {
+  background: var(--main-teal-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  rotate: 30deg;
+  margin-top: -12%;
+  z-index: -6;
+  animation: revRotationX 15s infinite;
+}
+
+.box6z {
+  background: var(--main-blue-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  rotate: 60deg;
+  margin-top: -10%;
+  z-index: -8;
+  animation: rotationY 15s infinite;
+}
+
+.box7y {
+  background: var(--main-teal-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: -15%;
+  rotate: 125deg;
+  z-index: -7;
+  animation: revRotationX 15s infinite;
+}
+
+.box8x {
+  background: var(--main-pink-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  rotate: 90deg;
+  margin-top: -10%;
+  z-index: -6;
+  animation: revRotationX 15s infinite;
+}
+
+.box9z {
+  background: var(--main-blue-color);
+  /* padding: 10px; */
+  width: 85px;
+  height: 10px;
+  border-radius: 50%;
+  rotate: 155deg;
+  margin-top: -10%;
+  z-index: -8;
+  animation: rotationY 15s infinite;
 }
 
 
@@ -456,10 +537,29 @@ a {
 
   @keyframes revRotation {
     from {
-      transform: rotate(360deg);
+      transform: rotateZ(360deg);
     }
     to {
-      transform: rotate(0deg);
+      transform: rotateZ(0deg);
+    }
+  }
+
+
+  @keyframes rotationY {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @keyframes revRotationX {
+    from {
+      transform: rotateX(360deg);
+    }
+    to {
+      transform: rotateX(0deg);
     }
   }
 

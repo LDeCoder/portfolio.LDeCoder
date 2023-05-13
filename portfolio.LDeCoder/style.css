@@ -24,7 +24,7 @@ header {
   /* width: cover; */
   background: white;
   /* overflow: hidden; */
-  display: flex-end;
+  display: cover;
   overflow: hidden;
 }
 
@@ -198,7 +198,7 @@ header .strengths .list .five{
 }
 
 .content {
-  color: var(--main-pink-color);
+  color: var(--main-blue-color);
   font-size: 1.5em;
   /* display: flex; */
   text-align: center;
@@ -416,10 +416,22 @@ header .strengths .list .five{
 .myProjects {
   /* margin-top: -50px; */
   border: none;
-  width: 100%;
   display: flex;
-  direction: column;
-  justify-content: space-around;
+  justify-items: space-between;
+}
+
+.project1,
+.project2,
+.project3 {
+  width: 30%;
+  padding: 5%;
+}
+
+.projectIntro {
+  display: flex;
+  padding: 2%;  
+  text-align: center;
+  color: var(--main-navy-color);
 }
 
 .myProjects .title{
@@ -455,6 +467,11 @@ header .strengths .list .five{
 .projectInfo {
   color: var(--main-navy-color);
   font-size: 1em;
+  padding: 20px;
+}
+
+.projectInfo h1 {
+  padding: 10px;
 }
 
 
@@ -498,7 +515,6 @@ header .strengths .list .five{
   border-left: 700px solid transparent;
   border-right: 0px solid transparent;
   border-bottom: 400px solid var(--main-pink-color);
-  /* position: absolute; */
   z-index: -3;  
 } 
 
@@ -564,11 +580,35 @@ a {
   }
 
   
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: 950px) {
+
+    body: {
+      overflow: hidden;
+    }    
+
     header .strengths .list {
       display: flex;
       text-justify: center;
       font-size: 1em;
+    }
+
+    .decor {
+      padding: 5%;
+    }
+
+    .myProjects {
+      display: flex;
+      flex-direction: column;
+      text-justify: center;
+      font-size: 1em;
+      padding: none;
+      width: 100%;
+    }
+
+    .project1, 
+    .project2,
+    .project3 {
+      width: 100%;
     }
 
     .triangles {

@@ -474,6 +474,9 @@ header .strengths .list .five{
   padding: 10px;
 }
 
+.myProjects li {
+  color: var(--main-navy-color);
+}
 
 
 

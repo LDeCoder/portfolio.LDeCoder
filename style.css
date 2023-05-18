@@ -123,11 +123,6 @@ header .strengths .list .dots{
   color: var(--main-teal-color);
 }
 
-/* #contactMe {
-  display: block;
-  width: 25vw;
-} */
-
 .title {
   /* margin-top: 5%; */
   color: var(--main-pink-color);
@@ -145,8 +140,8 @@ header .strengths .list .dots{
   list-style: none;
 }
 
-.contactMe a {
-  color: white;
+.strengthDefined {
+  width: 75vw;
 }
 
 

@@ -123,10 +123,13 @@ header .strengths .list .dots{
   color: var(--main-teal-color);
 }
 
-
+/* #contactMe {
+  display: block;
+  width: 25vw;
+} */
 
 .title {
-  margin-top: 15%;
+  /* margin-top: 5%; */
   color: var(--main-pink-color);
   font-family: 'Great Vibes', cursive;
   font-size: 2em;

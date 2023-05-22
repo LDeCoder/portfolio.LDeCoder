@@ -1,54 +1,4 @@
 
-
-
-body {
-  background-color: lightgray;
-  color: white;
-  font-family: 'Mulish', sans-serif;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-} 
-
-:root {
-  --main-blue-color: #3D58A7;
-  --main-pink-color: #91268f;
-  --main-teal-color: #15BCBE;
-  --main-navy-color: #050557;
-}
-
-a {
-cursor: pointer;
-}
-
-.responsibility{
-  color: #91268f;
-}
-
-.developer{
-  color: #BF61A6;
-}
-
-.achiever{
-  color: var(--main-blue-color);
-}
-
-.belief{
-  color: #007F80;
-}
-
-.positivity {
-  color: var(--main-teal-color);
-}
-
-#responsibility,
-#developer,
-#achiever,
-#belief,
-#positivity {
-  display:none;
-}
-
 header {
   padding: 30px;
   height: 25%;
@@ -99,7 +49,6 @@ header .strengths .list .dots{
   color: black;
 }
 
-
 header .strengths .list .one{
   color: #91268f;
 }
@@ -120,6 +69,11 @@ header .strengths .list .five{
   color: var(--main-teal-color);
 }
 
+.border {
+  margin-top: -50px;
+  border: none;
+  width: 100vw;
+}
 
 .border .line1 {
   background-color: var(--main-teal-color);
@@ -148,6 +102,9 @@ header .strengths .list .five{
   display: flex;
   justify-content: space-evenly;
 }
+
+
+
 
 
 .aboutMe {
@@ -542,6 +499,7 @@ header .strengths .list .five{
   z-index: -3;  
 } 
 
+
 .title {
   margin-top: -15%;
   color: white;
@@ -549,16 +507,9 @@ header .strengths .list .five{
   font-size: 2em;
 }
 
-/* .title {
-  /* margin-top: 5%;
-  color: var(--main-pink-color);
-  font-family: 'Great Vibes', cursive;
-  font-size: 2em;
-} */
-
 .contactInfo {
   margin-right: 2%;
-  margin-top: 10%;
+  margin-top: -10%;
   z-index: 0;
   font-size: 1.5em;
   color: white;
@@ -566,49 +517,48 @@ header .strengths .list .five{
   list-style: none;
 }
 
-/* .strengthDefined {
-  width: 75vw;
-} */
+a {
+  color: white;
+}
 
 
 
 @keyframes rotation {
-  from {
-    transform: rotate(0deg);
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@keyframes revRotation {
-  from {
-    transform: rotateZ(360deg);
+  @keyframes revRotation {
+    from {
+      transform: rotateZ(360deg);
+    }
+    to {
+      transform: rotateZ(0deg);
+    }
   }
-  to {
-    transform: rotateZ(0deg);
-  }
-}
 
 
-@keyframes rotationY {
-  from {
-    transform: rotateY(0deg);
+  @keyframes rotationY {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
   }
-  to {
-    transform: rotateY(360deg);
-  }
-}
 
-@keyframes revRotationX {
-  from {
-    transform: rotateX(360deg);
+  @keyframes revRotationX {
+    from {
+      transform: rotateX(360deg);
+    }
+    to {
+      transform: rotateX(0deg);
+    }
   }
-  to {
-    transform: rotateX(0deg);
-  }
-}
-
 
   
   @media screen and (max-width: 950px) {
@@ -650,7 +600,4 @@ header .strengths .list .five{
       margin-top: 5%;
       color: var(--main-pink-color);
     }
-  
-
-
-
+  }

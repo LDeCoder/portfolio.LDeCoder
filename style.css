@@ -15,6 +15,7 @@ body {
   --main-pink-color: #91268f;
   --main-teal-color: #15BCBE;
   --main-navy-color: #050557;
+  --main-gray-color: #151516;
 }
 
 a {
@@ -438,7 +439,7 @@ header .strengths .list .five{
 
 
 .myProjects {
-  /* margin-top: -50px; */
+  color: var(--main-gray-color);
   border: none;
   display: flex;
   justify-items: space-between;
@@ -566,11 +567,18 @@ header .strengths .list .five{
   list-style: none;
 }
 
-/* .strengthDefined {
-  width: 75vw;
-} */
+.goHome {
+  display: flex;
+  align-self: center;
+}
 
-
+.homeBtn {
+  background-color: var(--main-teal-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15%;
+} 
 
 @keyframes rotation {
   from {

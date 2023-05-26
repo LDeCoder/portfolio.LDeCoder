@@ -1,0 +1,150 @@
+
+.borderProjects {
+  border: none;
+}
+
+.borderProjects .line4 {
+  background-color: var(--main-teal-color);
+  height: 30px;
+  border: none;
+}
+
+.borderProjects .line5 {
+  background-color: var(--main-pink-color);
+  height: 30px;
+  margin-top: -10px;
+  border: none;
+}
+
+.borderProjects .line6 {
+  background-color: var(--main-blue-color);
+  height: 55px;
+  margin-top: -10px;
+  border: none;
+}
+
+.borderProjects .projects {
+  font-family: 'Great Vibes', cursive;
+  font-size: 7em;
+  margin-top: -120px;
+  text-align: center;
+}
+
+.myProjects {
+  color: var(--main-gray-color);
+  border: none;
+  display: flex;
+  justify-items: space-between;
+}
+
+.project1,
+.project2,
+.project3 {
+  width: 30%;
+  padding: 5%;
+}
+
+.projectIntro {
+  display: flex;
+  padding: 2%;  
+  text-align: center;
+  color: var(--main-navy-color);
+}
+
+.projectLink {
+  display: flex;
+  align-self: center; 
+  padding: 5%;  
+  color: var(--main-navy-color);
+}
+
+.myProjects .title{
+  font-family: 'Great Vibes', serif;
+  font-size: 3em;
+  margin-bottom: -25px;
+  color: var(--main-teal-color);
+}
+
+.myProjects .line7 {
+  background-color: var(--main-teal-color);
+  height: 10px;
+  width: 100%;
+  border: none;
+}
+
+.myProjects .line8 {
+  background-color: var(--main-pink-color);
+  height: 10px;
+  width: 100%;
+  margin-top: -10px;
+  border: none;
+}
+
+.myProjects .line9 {
+  background-color: var(--main-blue-color);
+  height: 15px;
+  width: 100%;
+  margin-top: -10px;
+  border: none;
+}
+
+.projectInfo {
+  color: var(--main-navy-color);
+  font-size: 1em;
+  padding: 20px;
+}
+
+.projectInfo h1 {
+  padding: 10px;
+} */
+
+
+
+  
+@media screen and (max-width: 1000px) {
+
+  body: {
+    overflow: hidden;
+  }    
+
+  header .strengths .list {
+    display: flex;
+    text-justify: center;
+    font-size: 1em;
+  }
+
+  .decor {
+    padding: 5%;
+  }
+
+  .borderProjects {
+    font-size: 0.5em;
+    padding: 10%;
+  }
+
+  .myProjects {
+    display: flex;
+    flex-direction: column;
+    text-justify: center;
+    font-size: 1em;
+    padding: none;
+    width: 100%;
+  }
+
+  .project1, 
+  .project2,
+  .project3 {
+    width: 100%;
+  }
+
+  .triangles {
+    display: none;
+  }
+
+  .contactInfo, .title {
+    margin-top: 5%;
+    color: var(--main-pink-color);
+  }
+
+
+

@@ -12,8 +12,8 @@ OR
 based on: my favorite color is... and then that is the accent color with black/white/gray*/
 
 body {
-  background-color: black;
-  color: var(--main-pink-color);
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
   font-family: 'Mulish', sans-serif;
  /* display: flex;
   flex-direction: column; */
@@ -22,13 +22,96 @@ body {
   margin: 0;
   padding: 0;
 } 
-
+/* PATRIOTIC:
+  --main-background-color: #040113;
+  --main-accent1-color: #4f0505;
+  --main-text-color: #f6f0dd;
+  --main-accent2-color: #5a5a5c;
+  --main-accent3-color: #02360a;
+  --main-test-color: #de0ac5; */
 /* 
---main-blue-color: #3D58A7;
---main-pink-color: #91268f;
---main-teal-color: #15BCBE;
---main-navy-color: #050557;
---main-gray-color: #151516; */
+
+/* MY STYLE
+  --main-background-color: #040113;
+  --main-accent1-color: #91268f;
+  --main-text-color: #f6f0dd;
+  --main-accent2-color: #15BCBE;
+  --main-accent3-color: #151516;
+  --main-test-color: RED; */
+
+
+  /* SO JADED
+    --main-background-color:  #0c3536;
+  --main-accent1-color: #1a7bcb;
+  --main-text-color: #b9e1a5;
+  --main-accent2-color:#9dc1ed;
+  --main-accent3-color: #edae82;
+  --main-test-color: LIME; */
+
+/* THAT 70s VIBE
+  --main-background-color:  #063750;
+  --main-accent1-color: #51e2c2;
+  --main-text-color: #e98b2d;
+  --main-accent2-color:#ebc109;
+  --main-accent3-color: #db6008;
+  --main-test-color: LIME; */
+
+  /* AAAHHH THE 80s
+    --main-background-color:  #080b09;
+  --main-accent1-color: #27d310;
+  --main-text-color: #d30fd9;
+  --main-accent2-color:#8b17d8;
+  --main-accent3-color: #0ecca3;
+  --main-test-color: white; */
+
+  /* RED, WHITE N BLUE
+    --main-background-color:  white;
+  --main-accent1-color: red;
+  --main-text-color: navy;
+  --main-accent2-color:blue;
+  --main-accent3-color: gold;
+  --main-test-color: hotpink; */
+
+  /* SO DIVA
+    --main-background-color:  white;
+  --main-accent1-color: rgb(217, 19, 220);
+  --main-text-color: rgb(10, 163, 23);
+  --main-accent2-color:rgb(1, 1, 21);
+  --main-accent3-color: rgb(20, 205, 196);
+  --main-test-color: hotpink; */
+
+  /* PRETTY IN PINK
+    --main-background-color:  rgb(237, 180, 237);
+  --main-accent1-color: rgb(18, 21, 21);
+  --main-text-color: rgb(118, 112, 118);
+  --main-accent2-color:rgb(119, 15, 112);
+  --main-accent3-color: rgb(35, 132, 127);
+  --main-test-color: GREEN; */
+
+  /* HOW 'BOUT THEM COWBOYZ
+    --main-background-color:  rgb(7, 7, 67);
+  --main-accent1-color: rgb(238, 10, 223);
+  --main-text-color: rgb(245, 240, 245);
+  --main-accent2-color:rgb(133, 138, 138);
+  --main-accent3-color: rgb(137, 159, 177);
+  --main-test-color: GREEN; */
+
+  /* HEY! WHAT IS YOUR FAVORITE COLOR?
+    --main-background-color:  rgb(16, 16, 17);
+  --main-accent1-color: rgb(255, 255, 255);
+  --main-text-color: rgb(160, 158, 158);
+  --main-accent2-color:rgb(15, 221, 224);
+  --main-accent3-color: rgb(68, 68, 68);
+  --main-test-color: GREEN; */
+
+  /* FAVORITE COLOR - WHITE BACKGROUND
+    --main-background-color:  rgb(255, 255, 255);
+  --main-accent1-color: rgb(0, 0, 0);
+  --main-text-color: rgb(160, 158, 158);
+  --main-accent2-color:rgb(224, 15, 15);
+  --main-accent3-color: rgb(68, 68, 68);
+  --main-test-color: GREEN; */
+  
 /* 
 --main-blue-color: #3f3f3f;
 --main-pink-color: #050557;
@@ -51,18 +134,35 @@ body {
 --main-navy-color: #150555;
 --main-gray-color: #5a5a5c; */
 
-:root {
-  --main-blue-color: #e40808;
+/*   --main-blue-color: #e40808;
   --main-pink-color: #0e0ade;
   --main-teal-color: #ffffff;
   --main-ltTeal-color: #070000;
   --main-navy-color: #150555;
-  --main-gray-color: #5a5a5c;
+  --main-gray-color: #5a5a5c; */
+
+:root {
+  --main-background-color:  rgb(0, 0, 0);
+  --main-accent1-color: rgb(255, 255, 255);
+  --main-text-color: rgb(253, 253, 253);
+  --main-accent2-color:rgb(86, 49, 237);
+  --main-accent3-color: rgb(68, 68, 68);
+  --main-test-color: GREEN;
 }
+
+
+
+/* new root descriptions */
+/* --main-background-color: #150555;
+--main-accent1-color: #4f0505;
+--main-text-color: #fff4cb;
+--main-accent2-color: #5a5a5c;
+--main-accent3-color: #02360a;
+--main-test-color: #de0ac5; */
 
 a {
 cursor: pointer;
-color: white;
+color: var(--main-accent3-color);
 }
 
 .responsibility{
@@ -82,7 +182,7 @@ color: white;
 }
 
 .positivity {
-  color: var(--main-teal-color);
+  color: var(--main-accent3-color);
 }
 
 #responsibility,
@@ -95,7 +195,7 @@ color: white;
 
 header {
   height: 25%;
-  background: rgb(35, 33, 33);
+  background: var(--main-background-color);
   margin: 0;
   padding: 0;
 } 
@@ -116,7 +216,7 @@ header .loriLogo{
 header .strengths .info{
   display: flex;
   justify-self: right;
-  color: var(--main-teal-color);
+  color: var(--main-text-color);
   font-size: 1.5em;
   margin-right: 1%;
   margin-left: 29%;
@@ -125,12 +225,12 @@ header .strengths .info{
 }
 
 header .myInfo {
-  color: var(--main-teal-color);
+  color: var(--main-accent1-color);
   text-align: left;
 }
 
 header .strengths .info .one{
-  color: var(--main-teal-color);
+  color: var(--main-accent1-color);
   display: flex;
   text-align: right;
   margin-top: 3%;
@@ -155,29 +255,29 @@ header .strengths .list .three{
 }
 
 header .strengths .list .four{
-  color: #007F80;
+  color: #06cbcb;
 }
 
 header .strengths .list .five{
-  color: var(--main-teal-color);
+  color: #99e7e7;
 }
 
 
 .border .line1 {
-  background-color: var(--main-teal-color);
+  background-color: var(--main-accent1-color);
   height: 10px;
   border: none;
 }
 
 .border .line2 {
-  background-color: var(--main-pink-color);
+  background-color: var(--main-accent2-color);
   height: 10px;
   margin-top: -10px;
   border: none;
 }
 
 .border .line3 {
-  background-color: var(--main-blue-color);
+  background-color: var(--main-text-color);
   height: 15px;
   margin-top: -10px;
   margin-bottom: 5%;
@@ -185,7 +285,7 @@ header .strengths .list .five{
 }
 
 .decor {
-  color: var(--main-teal-color);
+  color: var(--main-accent1-color);
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: space-evenly;
@@ -201,20 +301,20 @@ header .strengths .list .five{
 }
 
 h3{
-  color: var(--main-teal-color);
+  color: #f6f0dd98;
   text-align: center;
 }
 
 .skillsInfo {
   margin-top: 5%;
-  color: var(--main-pink-color);
+  color: var(--main-accent2-color);
 }
 
 .aboutMe h1 {
   margin-top: 2%;
   font-family: 'Great Vibes', cursive;
   font-size: 3.5em;
-  color: var(--main-pink-color);
+  color: var(--main-accent2-color);
   display: flex;
   justify-content: center;
   list-style: none;
@@ -235,8 +335,8 @@ h3{
 
 
 .collapsible {
-  background-color: lightgray;
-  color: var(--main-pink-color);
+  background-color: transparent;
+  color: var(--main-accent2-color);
   cursor: pointer;
   padding: 18px;
   width: 50%;
@@ -247,8 +347,8 @@ h3{
 }
 
 .collapsibleButton {
-  background-color: lightgray;
-  color: var(--main-pink-color);
+  background-color: transparent;
+  color: var(--main-accent2-color);
   cursor: pointer;
   padding: 8px;
   width: 100%;
@@ -259,19 +359,19 @@ h3{
 }
 
 .active, .collapsible:hover {
-  background-color: var(--main-pink-color);
-  color: white;
+  background-color: var(--main-accent1-color);
+  color: var(--main-text-color);
 }
 
 .active, .collapsibleButton:hover {
-  background-color: var(--main-pink-color);
-  color: white;
+  background-color: var(--main-accent1-color);
+  color: text;
 }
 
 .content {
-  color: var(--main-blue-color);
+  color: var(--main-text-color);
   font-size: 1.5em;
-background-color: var(--main-ltTeal-color);
+background-color: transparent;
   text-align: center;
   padding: 0 25px;
   max-height: 0;
@@ -281,7 +381,7 @@ background-color: var(--main-ltTeal-color);
 }
 
 .contentButton {
-  color: var(--main-pink-color);
+  color: var(--main-text-color);
   font-size: 1em;
   display: flex;
   align-items: center;
@@ -305,7 +405,7 @@ background-color: var(--main-ltTeal-color);
 
 
 .box4 {
-  background:  var(--main-pink-color);
+  background:  var(--main-accent1-color);
     /* padding: 10px; */
   width: 85px;
   height: 10px;
@@ -315,7 +415,7 @@ background-color: var(--main-ltTeal-color);
 }
 
 .box5 {
-  background: var(--main-teal-color);
+  background: var(--main-text-color);
   /* padding: 10px; */
   width: 85px;
   height: 10px;
@@ -327,7 +427,7 @@ background-color: var(--main-ltTeal-color);
 }
 
 .box6 {
-  background: var(--main-blue-color);
+  background: var(--main-accent2-color);
   /* padding: 10px; */
   width: 85px;
   height: 10px;
@@ -339,7 +439,7 @@ background-color: var(--main-ltTeal-color);
 }
 
 .box7 {
-  background: var(--main-teal-color);
+  background: var(--main-text-color);
   /* padding: 10px; */
   width: 85px;
   height: 10px;
@@ -351,7 +451,7 @@ background-color: var(--main-ltTeal-color);
 }
 
 .box8 {
-  background: var(--main-pink-color);
+  background: var(--main-accent1-color);
   /* padding: 10px; */
   width: 85px;
   height: 10px;
@@ -363,7 +463,7 @@ background-color: var(--main-ltTeal-color);
 }
 
 .box9 {
-  background: var(--main-blue-color);
+  background: var(--main-accent2-color);
   /* padding: 10px; */
   width: 85px;
   height: 10px;
@@ -382,6 +482,16 @@ background-color: var(--main-ltTeal-color);
   margin-top: 11%;
 }
 
+#theShow {
+  background-color: var(--main-text-color);
+  align-self: bottom;
+  width: 75px;
+  border-radius: 15%;
+  border:none;
+  cursor: pointer;
+}
+
+
 
 #box4x,
 #box4xa,
@@ -392,7 +502,7 @@ background-color: var(--main-ltTeal-color);
   /* background-color: blue; */
   width: 70px;
   height: 280px;
-  border: 13px dotted red;
+  border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
   z-index: -5;
   animation: revRotationX 8s 2;
@@ -409,7 +519,7 @@ background-color: var(--main-ltTeal-color);
   /* background: green; */
     width: 70px;
   height: 140px;
-  border: 13px dotted blue;
+  border: 13px dotted var(--main-text-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -427,7 +537,7 @@ background-color: var(--main-ltTeal-color);
   /* background-color: orange; */
   width: 70px;
   height: 280px;
-  border: 13px dotted red;
+  border: 13px dotted var(--main-accent2-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -447,7 +557,7 @@ background-color: var(--main-ltTeal-color);
    /* margin-top: 2%; */
     width: 70px;
   height: 140px;
-  border: 13px dotted blue;
+  border: 13px dotted var(--main-text-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -459,14 +569,12 @@ background-color: var(--main-ltTeal-color);
 
 #box6z,
 #box6za,
-#box6zb,
-.box6z {
-  background: var(--main-blue-color);
+#box6zb,{
   background:transparent;
   /* background-color: yellow; */
   width: 70px;
   height: 280px;
-  border: 13px dotted red;
+  border: 13px dotted var(--main-accent2-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -486,7 +594,7 @@ background-color: var(--main-ltTeal-color);
    /* margin-top: 2%; */
     width: 70px;
   height: 140px;
-  border: 13px dotted blue;
+  border: 13px dotted var(--main-text-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -500,12 +608,11 @@ background-color: var(--main-ltTeal-color);
 #box7ya,
 #box7yb,
 .box7y {
-  background: var(--main-teal-color);
   background: transparent;
   /* background-color: pink; */
     width: 70px;
   height: 280px;
-  border: 13px dotted red;
+  border: 13px dotted var(--main-accent2-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -525,7 +632,7 @@ background-color: var(--main-ltTeal-color);
    /* margin-top: 2%; */
     width: 70px;
   height: 140px;
-  border: 13px dotted blue;
+  border: 13px dotted var(--main-text-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -539,12 +646,11 @@ background-color: var(--main-ltTeal-color);
 #box8xa,
 #box8xb,
 .box8x {
-  background: var(--main-pink-color);
   background: transparent;
   /* background-color: green; */
     width: 70px;
   height: 280px;
-  border: 13px dotted red;
+  border: 13px dotted var(--main-accent2-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -564,7 +670,7 @@ background-color: var(--main-ltTeal-color);
    /* margin-top: 2%; */
     width: 70px;
   height: 140px;
-  border: 13px dotted blue;
+  border: 13px dotted var(--main-text-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -578,12 +684,11 @@ background-color: var(--main-ltTeal-color);
 #box9za,
 #box9zb,
 .box9z {
-  background: var(--main-blue-color);
   background: transparent;
   /* background-color: blue; */
     width: 70px;
   height: 280px;
-  border: 13px dotted red;
+  border: 13px dotted var(--main-accent2-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -603,7 +708,7 @@ background-color: var(--main-ltTeal-color);
    /* margin-top: 2%; */
     width: 70px;
   height: 140px;
-  border: 13px dotted blue;
+  border: 13px dotted var(--main-text-color);
   /* width: 55px;
   height: 210px; */
   border-radius: 50%;
@@ -620,7 +725,7 @@ background-color: var(--main-ltTeal-color);
   height: 10%;
   width: 100%;
   overflow: hidden;
-  background-color: blue;
+  background-color: var(--main-accent3-color);
 }
 
 
@@ -640,7 +745,7 @@ background-color: var(--main-ltTeal-color);
   /* margin-left: -25%; */
   border-left: 510px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 500px solid var(--main-teal-color);
+  border-bottom: 500px solid var(--main-text-color);
   position: absolute;
   z-index: -2;  
 } 
@@ -651,7 +756,7 @@ background-color: var(--main-ltTeal-color);
   /* margin-left: -25%; */
   border-left: 510px solid transparent;
   border-right: 0px solid transparent;
-  border-bottom: 500px solid var(--main-blue-color);
+  border-bottom: 500px solid var(--main-accent1-color);
   position: absolute;
   z-index: -1;  
 } 
@@ -662,7 +767,7 @@ background-color: var(--main-ltTeal-color);
   /* margin-left: -25%; */
   border-left: 510px solid transparent;
   border-right: 40px solid transparent;
-  border-bottom: 500px solid var(--main-pink-color);
+  border-bottom: 500px solid var(--main-accent2-color);
   position: absolute;
   z-index: -3;  
 } 
@@ -674,7 +779,7 @@ background-color: var(--main-ltTeal-color);
 } */
 
 .title {
-  color: white;
+  color: var(--main-text-color);
   font-family: 'Great Vibes', cursive;
   font-size: 2em;
 }
@@ -682,7 +787,7 @@ background-color: var(--main-ltTeal-color);
 
 .contactInfo {
   z-index: 2;
-  color: white;
+  color: var(--main-text-color);
   text-align: bottom;
   list-style: none;
 }
@@ -757,14 +862,14 @@ background-color: var(--main-ltTeal-color);
     transform: rotateX(0deg);
     transform: rotateY(360deg);
     opacity: 100%;
-    border-color: blue;
+    /* border-color: blue; */
   }
   to {
     bottom: 0%;
     transform: rotateX(360deg);
     transform: rotateY(0deg);
     opacity: 0%;
-    border-color: white;
+    /* border-color: white; */
   }
 }
 
@@ -797,15 +902,15 @@ background-color: var(--main-ltTeal-color);
     }
 
 
-    .triangles {
+    /* .triangles {
       display: none;
-    }
+    } */
 
     .contactInfo, .title {
-      margin-top: 5%;
+      margin-top: 15%;
       color: var(--main-pink-color);
-      text-align: center;
-      font-size: 2em;
+      text-align: right;
+      font-size: 1.2em;
     }
 
     .thanks {

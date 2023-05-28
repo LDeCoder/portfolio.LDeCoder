@@ -104,6 +104,38 @@ function myPos() {
   }
 }
 
+function theShow() {
+  var f = document.getElementById("box4x");
+  var i = document.getElementById("box15");
+  var r = document.getElementById("box5y");
+  var e = document.getElementById("box14");
+  var w = document.getElementById("box6z");
+  var o = document.getElementById("box13");
+  var r = document.getElementById("box7y");
+  var k = document.getElementById("box12");
+  var s = document.getElementById("box8x");
+  var h = document.getElementById("box11");
+  var oo = document.getElementById("box9z");
+  var ww = document.getElementById("box10");
+
+
+  if (1 + 1 == 2) {
+    f.style.animation = "revRotationX 14s 5";
+    i.style.animation = "revRotationXY 14s 5";
+    r.style.animation = "revRotationX 14s 5";
+    e.style.animation = "revRotationXY 14s 5";
+    w.style.animation = "revRotationX 14s 5";
+    o.style.animation = "revRotationXY 14s 5";
+    r.style.animation = "revRotationX 14s 5";
+    k.style.animation = "revRotationXY 14s 5";
+    s.style.animation = "revRotationX 14s 5";
+    h.style.animation = "revRotationXY 14s 5";
+    oo.style.animation = "revRotationX 14s 5";
+    ww.style.animation = "revRotationXY 14s 5";
+  }
+
+}
+
 
 // // to avoid the error, the parameter [sendResponse] is necessary!
 // chrome.runtime.onmouseover.addListener(function(msg, sender, sendResponse) {

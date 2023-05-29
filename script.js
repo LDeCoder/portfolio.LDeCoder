@@ -120,18 +120,18 @@ function theShow() {
 
 
   if (1 + 1 == 2) {
-    f.style.animation = "revRotationX 14s 5";
-    i.style.animation = "revRotationXY 14s 5";
-    r.style.animation = "revRotationX 14s 5";
-    e.style.animation = "revRotationXY 14s 5";
-    w.style.animation = "revRotationX 14s 5";
-    o.style.animation = "revRotationXY 14s 5";
-    r.style.animation = "revRotationX 14s 5";
-    k.style.animation = "revRotationXY 14s 5";
-    s.style.animation = "revRotationX 14s 5";
-    h.style.animation = "revRotationXY 14s 5";
-    oo.style.animation = "revRotationX 14s 5";
-    ww.style.animation = "revRotationXY 14s 5";
+    f.style.animation = "revRotationX 5s 2";
+    i.style.animation = "revRotationXY 1s 5";
+    r.style.animation = "revRotationX 5s 2";
+    e.style.animation = "revRotationXY 1s 5";
+    w.style.animation = "revRotationX 5s 2";
+    o.style.animation = "revRotationXY 1s 5";
+    r.style.animation = "revRotationX 5s 2";
+    k.style.animation = "revRotationXY 1s 5";
+    s.style.animation = "revRotationX 5s 2";
+    h.style.animation = "revRotationXY 1s 5";
+    oo.style.animation = "revRotationX 5s 2";
+    ww.style.animation = "revRotationXY 1s 5";
   }
 
 }

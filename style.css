@@ -1,11 +1,13 @@
+/*
 
-/* try no display for 2 of the lines and thank you for visiting
+make fireworks button to start show then switch to encore
+then make a better display for the encore 
 
-make star bigger under thank you
+then work on color scheme
 
 fix a tag link color
 
-utlize black and gray instead of navy
+then add database for gathering information such as visits, voting, tracking of color chosen and some type of graph that reflects that.
 
 make ability to toggle color scheme
 OR 
@@ -331,6 +333,10 @@ h3{
 
 .skillsList {
   font-size: 1.5em;
+}
+
+.toggle {
+  color: var(--main-accent3-color);
 }
 
 

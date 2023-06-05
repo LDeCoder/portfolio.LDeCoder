@@ -144,12 +144,12 @@ body {
   --main-gray-color: #5a5a5c; */
 
 :root {
-  --main-background-color:  rgb(0, 0, 0);
-  --main-accent1-color: rgb(255, 255, 255);
-  --main-text-color: rgb(181, 166, 242);
-  --main-accent2-color:rgb(86, 49, 237);
-  --main-accent3-color: rgb(68, 68, 68);
-  --main-test-color: GREEN;
+  --main-background-color: #040113;
+  --main-accent1-color: #91268f;
+  --main-text-color: #f6f0dd;
+  --main-accent2-color: #15BCBE;
+  --main-accent3-color: #151516;
+  --main-test-color: RED;
 }
 
 
@@ -480,30 +480,47 @@ background-color: transparent;
   animation: rotation 10s infinite;
 }
 
+.focalPoint {
+  text-align: right;
+  margin-top: 15%;
+  display:block;
+  margin-right: 3%;
+}
+
+.style {
+  z-index: -6;
+  margin-top: 5%;
+  margin-right: 15%;
+}
 
 .fireworks {
   display: flex;
-  justify-content: right;
-  margin-right: 28%;
-  margin-top: 22%;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  z-index: 0;
 }
 
 #theShow {
-  background-color: var(--main-text-color);
-  align-self: bottom;
+  background-color: var(--main-accent3-color);
+  color: var(--main-accent2-color);
+  /* display: left; */
   width: 75px;
   border-radius: 15%;
   border:none;
   cursor: pointer;
+  z-index: 0;
 }
 
+#theShow:active {
+  transform: scale(0.75);
+}
 
 
 #box4x,
 #box4xa,
 #box4xb,
 .box4x {
-  /* background:  var(--main-pink-color); */
   background: transparent;
   /* background-color: blue;*/
   width: 0px;
@@ -520,14 +537,10 @@ background-color: transparent;
 #box15b,
 .box15 {
   background:  transparent;
-  /* margin-top: 2%; */
   /* background-color: blue; */
-  /* background: green; */
   width: 0px;
   height: 0px;
   border: 8px dotted var(--main-text-color);
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   z-index: -4;
   animation: revRotationXY 6s 1s 6;
@@ -540,13 +553,9 @@ background-color: transparent;
 .box5y {
   background: var(--main-teal-color);
   background: transparent;
-  /* background-color: orange; */
-  /* background-color: blue;*/
   width: 0px;
   height: 0px;
   border: 13px dotted var(--main-accent1-color);
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   rotate: 30deg;
   z-index: -5;
@@ -559,14 +568,10 @@ background-color: transparent;
 #box14b,
 .box14 {
   background: transparent;
-  /* background-color: orange; */
-  /* background: green; */
-   /* margin-top: 2%; */
+  /* background-color: pink; */
    width: 0px;
    height: 0px;
   border: 8px dotted var(--main-text-color);
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   rotate: 30deg;
   z-index: -4;
@@ -579,13 +584,10 @@ background-color: transparent;
 #box6zb,
 .box6z {
   background:transparent;
-  /* background-color: yellow; */
-  /* background-color: blue;*/
+  /* background-color: yellow; */  
   width: 0px;
   height: 0px;
   border: 13px dotted var(--main-accent1-color);
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   rotate: 60deg;
   z-index: -5;
@@ -599,13 +601,9 @@ background-color: transparent;
 .box13 {
   background: transparent;
   /* background-color: yellow; */
-  /* background: green; */
-   /* margin-top: 2%; */
-   width: 0px;
-   height: 0px;
+  width: 0px;
+  height: 0px;
   border: 8px dotted var(--main-text-color);
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   rotate: 60deg;
   z-index: -4;
@@ -619,12 +617,9 @@ background-color: transparent;
 .box7y {
   background: transparent;
   /* background-color: pink; */
-  /* background-color: blue;*/
   width: 0px; 
   height: 0px;
   border: 13px dotted var(--main-accent1-color);
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   rotate: 125deg;
   z-index: -5;
@@ -638,13 +633,9 @@ background-color: transparent;
 .box12 {
   background:transparent;
   /* background-color: green; */
-  /* background: green; */
-   /* margin-top: 2%; */
-   width: 0px;
-   height: 0px;
+  width: 0px;
+  height: 0px;
   border: 8px dotted var(--main-text-color);
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   rotate: 125deg;
   z-index: -4;
@@ -658,12 +649,9 @@ background-color: transparent;
 .box8x {
   background: transparent;
   /* background-color: green; */
-  /* background-color: blue;*/
   width: 0px; 
   height: 0px;
   border: 13px dotted var(--main-accent1-color);
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   rotate: 90deg;
   z-index: -5;
@@ -677,13 +665,9 @@ background-color: transparent;
 .box11 {
   background: transparent;
   /* background-color: green; */
-  /* background: green; */
-   /* margin-top: 2%; */
-   width: 0px;
-   height: 0px;
+  width: 0px;
+  height: 0px;
   border: 8px dotted var(--main-text-color);
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   rotate: 90deg;
   z-index: -4;
@@ -697,12 +681,9 @@ background-color: transparent;
 .box9z {
   background: transparent;
   /* background-color: blue; */
-  /* background-color: blue;*/
   width: 0px; 
   height: 0px;
   border: 13px dotted var(--main-accent1-color); 
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   rotate: 155deg;
   z-index: -5;
@@ -716,13 +697,9 @@ background-color: transparent;
 .box10 {
   background: transparent;
   /* background: green; */
-  /* background-color: red; */
-   /* margin-top: 2%; */
-   width: 0px;
-   height: 0px;
+  width: 0px;
+  height: 0px;
   border: 8px dotted var(--main-text-color);
-  /* width: 55px;
-  height: 210px; */
   border-radius: 50%;
   rotate: 155deg;
   z-index: -4;
@@ -731,15 +708,6 @@ background-color: transparent;
 }
 
 
-.footer {
-  display: flex;
-  justify-items: center;
-  height: 10%;
-  width: 100%;
-  overflow: hidden;
-  background-color: var(--main-accent3-color);
-}
-
 
 
 
@@ -747,38 +715,30 @@ background-color: transparent;
 .triangles {
   display: flex;
   justify-content: right;
+  overflow: hidden;
 }
 
 
 
-.triangle{
-  /* width: 0;
-  height: 0; */
-  /* margin-left: -25%; */
-  border-left: 510px solid transparent;
-  border-right: 30px solid transparent;
+.triangle {
+  border-left: 475px solid transparent;
+  border-right: 0px solid transparent;
   border-bottom: 500px solid var(--main-text-color);
   position: absolute;
   z-index: -2;  
 } 
 
-.triangle2{
-  /* width: 0;
-  height: 0; */
-  /* margin-left: -25%; */
-  border-left: 510px solid transparent;
-  border-right: 50px solid transparent;
+.triangle2 {
+  border-left: 430px solid transparent;
+  border-right: 0px solid transparent;
   border-bottom: 500px solid var(--main-accent1-color);
   position: absolute;
   z-index: -1;  
 } 
 
-.triangle3{
-  /* width: 0;
-  height: 0; */
-  /* margin-left: -25%; */
+.triangle3 {
   border-left: 510px solid transparent;
-  border-right: 40px solid transparent;
+  border-right: 0px solid transparent;
   border-bottom: 500px solid var(--main-accent2-color);
   position: absolute;
   z-index: -3;  
@@ -786,9 +746,6 @@ background-color: transparent;
 
 
 
-/* .contactMe {
-  z-index: 0;
-} */
 
 .title {
   color: var(--main-text-color);
@@ -799,15 +756,18 @@ background-color: transparent;
 
 .contactInfo {
   z-index: 2;
-  color: var(--main-text-color);
+  color: var(--main-accent2-color);
   text-align: bottom;
   list-style: none;
 }
 
 
 .thanks {
+  color: var(--main-background-color);
   font-size: 2em;
-  text-align: right;
+  text-align: bottom left;
+  z-index: 0;
+
 }
 
 /* .goHome {
@@ -857,14 +817,15 @@ background-color: transparent;
   from { 
     width: 0px;
     height: 0px;
-    bottom: -150%;
+    bottom: -80%;
     transform: rotateX(180deg);
     opacity: 100%;
+    border-color: 8px dotted var(--main-accent1-color);
   }
   to {
     width: 150px;
     height: 100px;
-    bottom: -100%;
+    bottom: 0%;
     transform: rotateX(90deg);
     opacity: 0%;
   }
@@ -874,16 +835,16 @@ background-color: transparent;
   from { 
     width: 0px;
     height: 0px;
-    bottom: -140%;
+    bottom: -90%;
     transform: rotateX(180deg);
     transform: rotateY(180deg);
     opacity: 100%;
-    /* border-color: blue; */
+    border-color: 13px dotted var(--main-text-color);
   }
   to {
     width: 200px;
     height: 100px;
-    bottom: -100%;
+    bottom: -30%;
     transform: rotateX(90deg);
     transform: rotateY(90deg);
     opacity: 70%;
@@ -901,8 +862,14 @@ background-color: transparent;
 }
 
 
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
 
     header .strengths .list {
       display: flex;
@@ -936,6 +903,141 @@ background-color: transparent;
       color: var(--main-ltTeal-color);
       font-size: 3em;
       margin-top: 5%;
+    }
+  
+  }
+
+
+
+/* tablets */
+
+  
+  @media screen and (max-width: 768px) {
+
+    header .strengths .list {
+      display: flex;
+      text-justify: center;
+      font-size: 1em;
+    }
+
+    .decor {
+      padding: 5%;
+    }
+
+    .borderProjects .projects{
+      font-size: 3em;
+      padding: 20%;
+    }
+
+
+    /* .triangles {
+      display: none;
+    } */
+
+    .contactInfo, .title {
+      margin-top: 15%;
+      margin-right: 5%;
+      color: var(--main-accent1-color);
+      text-align: right;
+      font-size: 1.2em;
+    }
+
+    .thanks {
+      color: var(--main-ltTeal-color);
+      font-size: 3em;
+      margin-top: 5%;
+    }
+  
+  }
+
+/* phones */
+
+  @media screen and (max-width: 480px) {
+
+    header .strengths .list {
+      display: flex;
+      text-justify: center;
+      font-size: 0.75em;
+    }
+
+    .decor {
+      padding: 5%;
+    }
+
+    .triangles {
+      display: none;
+    }
+
+
+    .style {
+      margin-top: -18%;
+      z-index: -3;
+    }
+
+    #theShow {
+      height: 100px;
+      width: 105%;
+      font-size: 1.5em;
+    }
+
+    @keyframes revRotationX {
+      from { 
+        width: 0px;
+        height: 0px;
+        bottom: -190%;
+        transform: rotateX(180deg);
+        opacity: 100%;
+      
+      }
+      to {
+        width: 150px;
+        height: 100px;
+        bottom: -180%;
+        transform: rotateX(90deg);
+        opacity: 0%;
+      }
+    }
+
+    @keyframes revRotationXY {
+      from { 
+        width: 0px;
+        height: 0px;
+        bottom: -10%;
+        transform: rotateX(180deg);
+        transform: rotateY(180deg);
+        opacity: 100%;
+        border-color: 13px dotted var(--main-accent3-color);
+      
+      }
+      to {
+        width: 200px;
+        height: 100px;
+        bottom: -0%;
+        transform: rotateX(90deg);
+        transform: rotateY(90deg);
+        opacity: 70%;
+      }
+    }
+
+
+
+
+
+
+   
+
+    .contactInfo, .title {
+      margin-top: 35%;
+      margin-right: 5%;
+      color: var(--main-accent3-color);
+      text-align: right;
+      font-size: 1.5em;
+    }
+
+    .thanks {
+      color: var(--main-background-color);
+      font-size: 2em;
+      margin-top: 15%;
     }
   
   }

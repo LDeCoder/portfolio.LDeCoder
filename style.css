@@ -147,10 +147,18 @@ body {
 
 a {
 cursor: pointer;
-color: var(--main-accent1-color);
+color: var(--main-accent2-color);
+}
+
+.strengthLink {
+  color: var(--main-accent2-color);
 }
 
 
+.strengthLink:hover {
+  display: flex;
+  color: var(--main-accent4-color);
+}
 
 header .strengths .list .dots{
   color: black;
@@ -199,8 +207,10 @@ header .loriLogo{
 
 .list{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  font-size: 2em;
+  font-size: 2.5em;
   width: 100%;
 }
 
@@ -432,15 +442,23 @@ h3{
 
 .focalPoint {
   text-align: right;
-  margin-top: 14%;
-  display: block;
+  display: flex;
   margin-right: 3%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+  align-content: space-around;
+ 
+ 
+  /* text-align: right;
+  display: block;
+  margin-right: 3%; */
 }
 
 .style {
   z-index: -6;
   margin-top: 5%;
-  margin-right: 15%;
 }
 
 .fireworks {
@@ -465,9 +483,9 @@ h3{
   transform: scale(0.75);
 } */
 #cover {
-  background-color: var(--main-accent4-color);
-  height: 270px;
-  width: 150px;
+  background-color: var(--main-background-color);
+  height: 50px;
+  width: 50px;
   z-index: 0;
 }
 
@@ -679,7 +697,7 @@ h3{
   border-right: 0px solid transparent;
   border-bottom: 500px solid var(--main-text-color);
   position: absolute;
-  z-index: -2;  
+  z-index: -5;  
 } 
 
 .triangle2 {
@@ -687,7 +705,7 @@ h3{
   border-right: 0px solid transparent;
   border-bottom: 500px solid var(--main-accent1-color);
   position: absolute;
-  z-index: -1;  
+  z-index: -4;  
 } 
 
 .triangle3 {
@@ -695,7 +713,7 @@ h3{
   border-right: 0px solid transparent;
   border-bottom: 500px solid var(--main-accent2-color);
   position: absolute;
-  z-index: -3;  
+  z-index: -6;  
 } 
 
 
@@ -705,16 +723,16 @@ h3{
   color: var(--main-text-color);
   font-family: 'Great Vibes', cursive;
   font-size: 2em;
+  z-index: 0;
 }
 
 
 .contactInfo {
-  z-index: 2;
+  z-index: 0;
   color: var(--main-text-color);
   text-align: bottom;
   list-style: none;
   position: sticky; 
-  ;
 }
 
 

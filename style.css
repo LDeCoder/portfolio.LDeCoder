@@ -133,7 +133,7 @@ body {
   --main-accent3-color: rgb(0, 0, 0) ;
   --main-accent4-color: teal;
   --main-test-color: GREEN; */
-}
+
 
 
 
@@ -145,7 +145,7 @@ body {
   --main-accent2-color: rgb(3, 85, 112);
   --main-accent3-color: rgb(0, 0, 0) ;
   --main-accent4-color: teal;
-  --main-test-color: GREEN;
+  --main-test-color: GREEN; 
 }
 
 a {
@@ -454,7 +454,7 @@ h3{
   z-index: 0;
 }
 
-#theShow {
+/* #theShow {
   background-color: var(--main-accent2-color);
   color: var(--main-text-color);
   width: 75px;
@@ -466,7 +466,7 @@ h3{
 
 #theShow:active {
   transform: scale(0.75);
-}
+} */
 
 
 #box4x,
@@ -477,7 +477,7 @@ h3{
   /* background-color: blue;*/
   width: 0px;
   height: 0px;
-  border: 13px dotted var(--main-accent1-color);
+  border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
   z-index: -5;
   animation: revRotationX 4s 8;
@@ -492,7 +492,7 @@ h3{
   /* background-color: blue; */
   width: 0px;
   height: 0px;
-  border: 8px dotted var(--main-text-color);
+  border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
   z-index: -4;
   animation: revRotationXY 6s 1s 6;
@@ -507,7 +507,7 @@ h3{
   background: transparent;
   width: 0px;
   height: 0px;
-  border: 13px dotted var(--main-accent1-color);
+  border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
   rotate: 30deg;
   z-index: -5;
@@ -523,7 +523,7 @@ h3{
   /* background-color: pink; */
    width: 0px;
    height: 0px;
-  border: 8px dotted var(--main-text-color);
+  border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
   rotate: 30deg;
   z-index: -4;
@@ -539,7 +539,7 @@ h3{
   /* background-color: yellow; */  
   width: 0px;
   height: 0px;
-  border: 13px dotted var(--main-accent1-color);
+  border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
   rotate: 60deg;
   z-index: -5;
@@ -555,7 +555,7 @@ h3{
   /* background-color: yellow; */
   width: 0px;
   height: 0px;
-  border: 8px dotted var(--main-text-color);
+  border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
   rotate: 60deg;
   z-index: -4;
@@ -571,7 +571,7 @@ h3{
   /* background-color: pink; */
   width: 0px; 
   height: 0px;
-  border: 13px dotted var(--main-accent1-color);
+  border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
   rotate: 125deg;
   z-index: -5;
@@ -587,7 +587,7 @@ h3{
   /* background-color: green; */
   width: 0px;
   height: 0px;
-  border: 8px dotted var(--main-text-color);
+  border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
   rotate: 125deg;
   z-index: -4;
@@ -603,7 +603,7 @@ h3{
   /* background-color: green; */
   width: 0px; 
   height: 0px;
-  border: 13px dotted var(--main-accent1-color);
+  border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
   rotate: 90deg;
   z-index: -5;
@@ -619,7 +619,7 @@ h3{
   /* background-color: green; */
   width: 0px;
   height: 0px;
-  border: 8px dotted var(--main-text-color);
+  border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
   rotate: 90deg;
   z-index: -4;
@@ -635,7 +635,7 @@ h3{
   /* background-color: blue; */
   width: 0px; 
   height: 0px;
-  border: 13px dotted var(--main-accent1-color); 
+  border: 13px dotted var(--main-accent2-color); 
   border-radius: 50%;
   rotate: 155deg;
   z-index: -5;
@@ -651,7 +651,7 @@ h3{
   /* background: green; */
   width: 0px;
   height: 0px;
-  border: 8px dotted var(--main-text-color);
+  border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
   rotate: 155deg;
   z-index: -4;
@@ -769,10 +769,9 @@ h3{
   from { 
     width: 0px;
     height: 0px;
-    bottom: -80%;
+    bottom: -130%;
     transform: rotateX(180deg);
     opacity: 100%;
-    border-color: 8px dotted var(--main-accent3-color);
   }
   to {
     width: 150px;
@@ -787,16 +786,15 @@ h3{
   from { 
     width: 0px;
     height: 0px;
-    bottom: -90%;
+    bottom: -130%;
     transform: rotateX(180deg);
     transform: rotateY(180deg);
     opacity: 100%;
-    border-color: 13px dotted var(--main-accent4-color);
   }
   to {
     width: 200px;
     height: 100px;
-    bottom: -30%;
+    bottom: -20%;
     transform: rotateX(90deg);
     transform: rotateY(90deg);
     opacity: 70%;
@@ -912,7 +910,6 @@ h3{
         bottom: -190%;
         transform: rotateX(180deg);
         opacity: 100%;
-        border-color: 8px dotted var(--main-accent1-color);
       }
       to {
         width: 150px;
@@ -931,8 +928,6 @@ h3{
         transform: rotateX(180deg);
         transform: rotateY(180deg);
         opacity: 100%;
-        border-color: 13px dotted var(--main-accent3-color);
-      
       }
       to {
         width: 200px;

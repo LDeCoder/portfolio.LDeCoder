@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Page</title>
+  </head>
+  <body>
+    <h1 class="welcome">Welcome to my website!</h1>
+    <h2 class="thankYou">May I start by saying, "Thank you for visiting!"</h2>
+    <h3 class="details">
+      Before you proceed, I need you to input a little information. This will
+      make it both fun and interactive.
+    </h3>
+    <form class="welcomeInfo">
+      Name:<input
+        type="text"
+        placeholder="Please enter your name here."
+      /><strong>Just your first name is fine on this one.</strong> <br />Email:
+      <input type="email" placeholder="Please enter your email here." />
+      <strong>Don't worry! I won't spam you!</strong>
+      <h1 class="choose">Next, please choose your favorite color.</h1>
+      <form>
+        <input type="checkbox" id="color1" name="color1" value="color1" />
+        <label for="color1" onclick="myFavoriteColor()"> I choose green.</label
+        ><br />
+        <input type="checkbox" id="color2" name="color2" value="color2" />
+        <label for="color2" onclick="myFavoriteColor()"> I choose purple.</label
+        ><br />
+        <input type="checkbox" id="color3" name="color3" value="color3" />
+        <label for="color3" onclick="myFavoriteColor()"> I choose blue.</label
+        ><br /><br />
+        <input type="submit" value="Submit" />
+
+        <p id="text" style="display: none">The checkbox is checked.</p>
+      </form>
+    </form>
+  </body>
+  <script src="welcome.js"></script>
+</html>

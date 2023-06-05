@@ -28,81 +28,81 @@ for (x = 0; x < collB.length; x++) {
   });
 }
 
-function myDiv() {
-  var x = document.getElementById("def");
-  // var y = document.getElementById("contactMe")
+// function myDiv() {
+//   var x = document.getElementById("def");
+//   // var y = document.getElementById("contactMe")
 
-  // console.log("moused over.");
+//   // console.log("moused over.");
 
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    // y.style.display = "none";
-  } else {
-    x.style.display = "none";
-    // y.style.display = block;
-  }
-}
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//     // y.style.display = "none";
+//   } else {
+//     x.style.display = "none";
+//     // y.style.display = block;
+//   }
+// }
 
-function myResp() {
-  var x = document.getElementById("responsibility");
+// function myResp() {
+//   var x = document.getElementById("responsibility");
 
-  // console.log("moused over.");
+//   // console.log("moused over.");
 
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
-function myDev() {
-  var x = document.getElementById("developer");
+// function myDev() {
+//   var x = document.getElementById("developer");
 
-  // console.log("moused over.");
+//   // console.log("moused over.");
 
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
-function myAch() {
-  var x = document.getElementById("achiever");
+// function myAch() {
+//   var x = document.getElementById("achiever");
 
-  // console.log("moused over.");
+//   // console.log("moused over.");
 
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
-function myBel() {
-  var x = document.getElementById("belief");
+// function myBel() {
+//   var x = document.getElementById("belief");
 
-  // console.log("moused over.");
+//   // console.log("moused over.");
 
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
 
-function myPos() {
-  var x = document.getElementById("positivity");
+// function myPos() {
+//   var x = document.getElementById("positivity");
 
-  // console.log("moused over.");
+//   // console.log("moused over.");
 
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
 function theShow() {
   var f = document.getElementById("box4x");

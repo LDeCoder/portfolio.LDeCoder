@@ -63,6 +63,16 @@ function theShow() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
 // // to avoid the error, the parameter [sendResponse] is necessary!
 // chrome.runtime.onmouseover.addListener(function(msg, sender, sendResponse) {
 //   // do something ...

@@ -1,0 +1,175 @@
+
+:root {
+  --main-background-color: #09022c;
+--main-text-color: #f6f0dd;
+--main-accent1-color: #91268f;
+--main-accent2-color: #025e61;
+--main-accent3-color: #15BCBE;
+--main-accent4-color: #96e0e1;
+--main-test-color: RED;
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  font-family: 'Mulish', sans-serif;
+  width: 100vw;
+} 
+
+a {
+  cursor: pointer;
+  color: var(--main-accent1-color);
+  }
+  
+.contactInfo {
+  color: var(--main-accent4-color);
+  list-style: none;
+}
+  
+header {
+  padding: 30px;
+  height: 40vh;
+  width: cover;
+  background: var(--main-background-color);
+  padding: 20px;
+  display: cover;
+}
+
+.loriLogo{
+  height: 30%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.strengths {
+  margin-top: 5%;
+  text-align: center;
+  padding: 0 25%;
+}
+
+
+button {
+  cursor: pointer; 
+  margin-top: 50px; 
+  width: 80vw;
+  font-size: 200%;
+  background-color: gray;
+  border-style: dotted;
+  border-width: 10px;
+}
+
+#responsibility,
+#developer,
+#achiever,
+#belief,
+#positivity {
+  display: none;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 1em;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.info{
+  color: var(--main-text-color);
+  font-size: 1.5em;
+  width: 70%;
+}
+
+.myInfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.responsibility {
+  color: var(--main-accent1-color);
+}
+
+.developer{
+  color: var(--main-accent2-color);
+}
+
+.achiever{
+  color: var(--main-accent3-color);
+}
+
+.belief{
+  color: var(--main-accent4-color);
+}
+
+.positivity{
+  color: var(--main-text-color);
+}
+
+.goHome button{
+  cursor: pointer;
+  margin-top: 50px; 
+  width: 100vw;
+  font-size: 2em;
+  color: var(--main-accent2-color);
+  background-color: var(--main-accent3-color);
+  border-color: 8px dotted var(--main-text-color);
+}
+
+@keyframes twirl {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+
+@media screen and (max-width: 80px) {
+  .strengths {
+    margin-top: 45%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .strengths {
+    margin-top: 65%;
+  }
+
+  button {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .strengths {
+    margin-top: 105%;
+  }
+
+  button {
+    font-size: 100%;
+  }
+}
+
+
+
+
+@media screen and (max-width: 280px) {
+  .strengths {
+    margin-top: 145%;
+  }
+
+  button {
+    font-size: 100%;
+  }
+}

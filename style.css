@@ -720,6 +720,7 @@ h3{
 
 
 .title {
+  margin-top: 15%;
   color: var(--main-text-color);
   font-family: 'Great Vibes', cursive;
   font-size: 2em;
@@ -728,6 +729,7 @@ h3{
 
 
 .contactInfo {
+  margin-top: 95%;
   z-index: 0;
   color: var(--main-text-color);
   text-align: bottom;
@@ -841,7 +843,7 @@ h3{
     }
 
     .contactInfo, .title {
-      margin-top: 5%;
+      margin-top: 95%;
       color: var(--main-text-color);
       text-align: right;
       font-size: 1.25em;
@@ -883,7 +885,7 @@ h3{
     } */
 
     .contactInfo, .title {
-      margin-top: 15%;
+      margin-top: 95%;
       margin-right: 5%;
       color: var(--main-text-color);
       text-align: right;

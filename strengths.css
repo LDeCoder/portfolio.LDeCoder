@@ -1,12 +1,12 @@
 
 :root {
-  --main-background-color: #09022c;
---main-text-color: #f6f0dd;
---main-accent1-color: #91268f;
---main-accent2-color: #025e61;
---main-accent3-color: #15BCBE;
---main-accent4-color: #96e0e1;
---main-test-color: RED;
+  --main-background-color:  rgb(255, 255, 255);
+  --main-text-color: rgb(165, 165, 165);
+  --main-accent1-color:rgb(67, 67, 71);
+  --main-accent2-color: rgb(3, 85, 112);
+  --main-accent3-color: rgb(0, 0, 0) ;
+  --main-accent4-color: teal;
+  --main-test-color: GREEN;
 }
 
 body {
@@ -53,7 +53,7 @@ button {
   margin-top: 50px; 
   width: 80vw;
   font-size: 200%;
-  background-color: gray;
+  background-color: transparent;
   border-style: dotted;
   border-width: 10px;
 }
@@ -114,8 +114,8 @@ button {
   margin-top: 50px; 
   width: 100vw;
   font-size: 2em;
-  color: var(--main-accent2-color);
-  background-color: var(--main-accent3-color);
+  color: var(--main-text-color);
+  background-color: var(--main-accent4-color);
   border-color: 8px dotted var(--main-text-color);
 }
 

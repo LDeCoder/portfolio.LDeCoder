@@ -1,41 +1,40 @@
-
 :root {
-  --main-background-color:  rgb(255, 255, 255);
+  --main-background-color: rgb(255, 255, 255);
   --main-text-color: rgb(165, 165, 165);
-  --main-accent1-color:rgb(67, 67, 71);
+  --main-accent1-color: rgb(67, 67, 71);
   --main-accent2-color: rgb(3, 85, 112);
-  --main-accent3-color: rgb(0, 0, 0) ;
+  --main-accent3-color: rgb(0, 0, 0);
   --main-accent4-color: teal;
   --main-test-color: GREEN;
 }
 
 body {
-  background-color: var(--main-background-color);
-  color: var(--main-text-color);
-  font-family: 'Mulish', sans-serif;
+  background-color: var(--main-text-color);
+  color: var(--main-background-color);
+  font-family: "Mulish", sans-serif;
   width: 100vw;
-} 
+}
 
 a {
   cursor: pointer;
   color: var(--main-accent1-color);
-  }
-  
+}
+
 .contactInfo {
   color: var(--main-accent4-color);
   list-style: none;
 }
-  
+
 header {
   padding: 30px;
-  height: 40vh;
+  height: 50vh;
   width: cover;
   background: var(--main-background-color);
   padding: 20px;
   display: cover;
 }
 
-.loriLogo{
+.loriLogo {
   height: 30%;
   margin: 10px;
   padding: 10px;
@@ -47,10 +46,9 @@ header {
   padding: 0 25%;
 }
 
-
 button {
-  cursor: pointer; 
-  margin-top: 50px; 
+  cursor: pointer;
+  margin-top: 50px;
   width: 80vw;
   font-size: 200%;
   background-color: transparent;
@@ -66,7 +64,7 @@ button {
   display: none;
 }
 
-.list{
+.list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -76,7 +74,7 @@ button {
   margin-top: 10%;
 }
 
-.info{
+.info {
   color: var(--main-text-color);
   font-size: 1.5em;
   width: 70%;
@@ -88,30 +86,34 @@ button {
   flex-wrap: wrap;
 }
 
-
 .responsibility {
   color: var(--main-accent1-color);
 }
 
-.developer{
+.developer {
   color: var(--main-accent2-color);
 }
 
-.achiever{
+.achiever {
   color: var(--main-accent3-color);
 }
 
-.belief{
+.belief {
   color: var(--main-accent4-color);
 }
 
-.positivity{
-  color: var(--main-text-color);
+.positivity {
+  color: var(--main-background-color);
 }
 
-.goHome button{
+.p {
+  color: white;
+  width: 50px;
+}
+
+.goHome button {
   cursor: pointer;
-  margin-top: 50px; 
+  margin-top: 50px;
   width: 100vw;
   font-size: 2em;
   color: var(--main-text-color);
@@ -119,7 +121,7 @@ button {
   border-color: 8px dotted var(--main-text-color);
 }
 
-@keyframes twirl {
+/* @keyframes twirl {
   from {
     transform: rotateY(0deg);
   }
@@ -132,8 +134,7 @@ button {
   to {
     opacity: 100%;
   }
-}
-
+} */
 
 @media screen and (max-width: 80px) {
   .strengths {
@@ -160,9 +161,6 @@ button {
     font-size: 100%;
   }
 }
-
-
-
 
 @media screen and (max-width: 280px) {
   .strengths {

@@ -1,0 +1,105 @@
+:root {
+  --main-background-color: rgb(255, 255, 255);
+  --main-text-color: rgb(165, 165, 165);
+  --main-accent1-color: rgb(67, 67, 71);
+  --main-accent2-color: rgb(3, 85, 112);
+  --main-accent3-color: rgb(0, 0, 0);
+  --main-accent4-color: teal;
+  --main-test-color: GREEN;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.loriLogo {
+  width: 50%;
+  align-self: center;
+}
+
+body {
+  background-color: var(--main-text-color);
+  color: var(--main-accent3-color);
+  font-family: "Mulish", sans-serif;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  padding: 10px;
+  margin-top: 25%;
+}
+
+.details {
+  width: 50%;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  color: var(--main-accent4-color);
+  font-size: 3em;
+}
+
+.thankYou {
+  align-self: center;
+  height: 50%;
+  position: absolute;
+}
+
+.line1 {
+  height: 15px;
+  background-color: var(--main-background-color);
+  border: none;
+}
+
+.line2 {
+  height: 20px;
+  background-color: var(--main-accent3-color);
+  border: none;
+  margin-top: -10px;
+}
+
+.line3 {
+  height: 10px;
+  background-color: var(--main-accent4-color);
+  border: none;
+  margin-top: -10px;
+}
+
+.thankYou:hover {
+  animation: thanks 3s 1;
+}
+
+input {
+  background-color: var(--main-accent3-color);
+  color: white;
+}
+
+a {
+  color: var(--main-accent4-color);
+}
+.contactInfo {
+  color: var(--main-background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10%;
+}
+
+@keyframes thanks {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+    translate: 500px 100px;
+  }
+  100% {
+    transform: scale(1);
+  }
+}

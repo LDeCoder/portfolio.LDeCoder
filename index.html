@@ -21,48 +21,77 @@
     <title>Welcome Page</title>
   </head>
   <body>
-    <h1 class="welcome">Welcome to my website!</h1>
-    <h2 class="thankYou">May I start by saying, "Thank you for visiting!"</h2>
-    <h3 class="details">
-      Before you proceed, I need you to input a little information. This will
-      make it both fun and interactive.
-    </h3>
-    <form class="welcomeInfo">
-      Name:<input
-        type="text"
-        placeholder="Please enter your name here."
-      /><strong>Just your first name is fine on this one.</strong> <br />Email:
-      <input type="email" placeholder="Please enter your email here." />
-      <strong>Don't worry! I won't spam you!</strong>
-      <h1 class="choose">Next, please choose your favorite color.</h1>
-      <form>
-        <input type="checkbox" id="color1" name="color1" value="color1" />
-        <label for="color1" onclick="myFavoriteColor()"> I choose green.</label
-        ><br />
-        <input type="checkbox" id="color2" name="color2" value="color2" />
-        <label for="color2" onclick="myFavoriteColor()"> I choose purple.</label
-        ><br />
-        <input type="checkbox" id="color3" name="color3" value="color3" />
-        <label for="color3" onclick="myFavoriteColor()"> I choose blue.</label
-        ><br /><br />
-        <!-- <input type="submit" value="Submit" /> -->
+    <header>
+      <div class="border">
+        <hr class="line1" />
+        <hr class="line2" />
+        <hr class="line3" />
+      </div>
+      <img class="loriLogo" src="images/logo.black.png" alt="" />
+      <div class="delete">
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXdelete this!
+        <a href="home.html"
+          ><button class="delete">return to home page</button></a
+        >
+      </div>
+      <div class="border">
+        <hr class="line1" />
+        <hr class="line2" />
+        <hr class="line3" />
+      </div>
+    </header>
+    <div>
+      <h1 class="thankYou">
+        Welcome! <br />
+        Thank you for visiting!
+      </h1>
+    </div>
+    <div class="content">
+      <h3 class="details">
+        Before you proceed, Please provide a little information. This will make
+        it both fun and interactive - and let me know you stopped by.
+      </h3>
+      <form class="welcomeInfo">
+        Name:<input type="text" placeholder="Your first name please." />
+        <br />Email:
+        <input type="email" placeholder="Please enter your email here." />
+        <em>Don't worry! I won't spam you! 😊</em>
+
+        <!-- <div class="comingSoon">
+            <h2 class="choose">Next, please choose your favorite color.</h2>
+            <form>
+              <input type="checkbox" id="color1" name="color1" value="color1" />
+              <label for="color1" onclick="myFavoriteColor()">
+                I choose green.</label
+              ><br />
+              <input type="checkbox" id="color2" name="color2" value="color2" />
+              <label for="color2" onclick="myFavoriteColor()">
+                I choose purple.</label
+              ><br />
+              <input type="checkbox" id="color3" name="color3" value="color3" />
+              <label for="color3" onclick="myFavoriteColor()"> I choose blue.</label
+              ><br /><br />
+              <!-- <input type="submit" value="Submit" /> -->
+        <!-- </form>
+        </div> -->
+        <br />
         <a href="home.html" class="submit">click to submit</a>
         <p id="text" style="display: none">The checkbox is checked.</p>
       </form>
-    </form>
 
-    <div id="contactMe">
-      <ul class="contactInfo">
-        <h1 class="title">Contact Me</h1>
-        <li>Lori Davis | LDeCoder</li>
-        <li>
-          <a class="toggle" href="https://github.com/LDeCoder" target="_blank"
-            >GitHub/LDeCoder</a
-          >
-        </li>
-        <li>806.220.6318</li>
-        <li>LDeCoder806@gmail.com</li>
-      </ul>
+      <div id="contactMe">
+        <ul class="contactInfo">
+          <h1 class="title">Contact Me</h1>
+          <li>Lori Davis | LDeCoder</li>
+          <li>
+            <a class="toggle" href="https://github.com/LDeCoder" target="_blank"
+              >GitHub/LDeCoder</a
+            >
+          </li>
+          <li>806.220.6318</li>
+          <li>LDeCoder806@gmail.com</li>
+        </ul>
+      </div>
     </div>
   </body>
   <script src="welcome.js"></script>

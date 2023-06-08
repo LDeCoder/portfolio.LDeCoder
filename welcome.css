@@ -103,3 +103,9 @@ a {
     transform: scale(1);
   }
 }
+
+@media screen and (max-width: 880px) {
+  .thankYou {
+    position: relative;
+  }
+}

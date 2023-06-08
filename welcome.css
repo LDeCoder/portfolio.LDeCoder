@@ -108,4 +108,12 @@ a {
   .thankYou {
     position: relative;
   }
+
+  .details {
+    width: 100%;
+  }
+
+  li {
+    font-size: 0.75em;
+  }
 }

@@ -1,94 +1,103 @@
-/* PATRIOTIC:*/
-
-/* --main-background-color: #040113;
+:root,
+:root.patriotic {
+  --main-background-color: #09022c;
   --main-text-color: #f6f0dd;
   --main-accent1-color: #6e0202;
-  --main-accent2-color: #090de6;
+  --main-accent2-color: #12147a;
   --main-accent4-color: #4e4e50;
   --main-accent3-color: #2c2c2d;
-  --main-test-color: #de0ac5;  */
-/* 
+  --main-test-color: #de0ac5;
+}
 
-/* MY STYLE*/
-/* --main-background-color: #09022c;
---main-text-color: #f6f0dd;
---main-accent1-color: #91268f;
---main-accent2-color: #025e61;
---main-accent3-color: #15BCBE;
---main-accent4-color: #96e0e1;
---main-test-color: RED; */
+:root.myStyle {
+  --main-background-color: #09022c;
+  --main-text-color: #f6f0dd;
+  --main-accent1-color: #91268f;
+  --main-accent2-color: #025e61;
+  --main-accent3-color: #15bcbe;
+  --main-accent4-color: #96e0e1;
+  --main-test-color: RED;
+}
 
-/* SO JADED*/
-/* --main-background-color:  #04332c;
+:root.soJaded {
+  --main-background-color: #04332c;
   --main-text-color: #79f8e5;
   --main-accent1-color: #044d42;
-  --main-accent2-color:#454848;
+  --main-accent2-color: #454848;
   --main-accent3-color: #8f9191;
   --main-accent4-color: #09b59b;
-  --main-test-color: LIME; */
+  --main-test-color: LIME;
+}
 
-/* THAT 70s VIBE*/
-/* --main-background-color: rgb(35, 16, 2);
---main-text-color:  #f7e38c;
---main-accent1-color: #db6008;
---main-accent2-color: #e98b2d;
---main-accent4-color:#ebc109;
---main-accent3-color: LIME;
---main-test-color: #51e2c2; */
+:root.that70vibe {
+  --main-background-color: rgb(35, 16, 2);
+  --main-text-color: #f7e38c;
+  --main-accent1-color: #db6008;
+  --main-accent2-color: #e98b2d;
+  --main-accent4-color: #ebc109;
+  --main-accent3-color: LIME;
+  --main-test-color: #51e2c2;
+}
 
-/* AAAHHH THE 80s*/
-/* --main-background-color:  #080b09;
+:root.aaah80s {
+  --main-background-color: #080b09;
   --main-text-color: white;
   --main-accent4-color: #dafb04;
   --main-accent2-color: #d30fd9;
   --main-accent3-color: #27d310;
-  --main-accent1-color:#8b17d8;
-  --main-test-color: rgb(9, 143, 225); */
+  --main-accent1-color: #8b17d8;
+  --main-test-color: rgb(9, 143, 225);
+}
 
-/* RED, WHITE N BLUE*/
-/* --main-background-color:  gray;
+:root.redWhiteBlue {
+  --main-background-color: gray;
   --main-accent3-color: red;
   --main-text-color: white;
-  --main-accent2-color:blue;
+  --main-accent2-color: blue;
   --main-accent4-color: rgb(195, 166, 1);
   --main-accent1-color: navy;
-  --main-test-color: hotpink; */
+  --main-test-color: hotpink;
+}
 
-/* SO DIVA*/
-/* --main-background-color:  white;
+:root.soDiva {
+  --main-background-color: white;
   --main-text-color: rgb(10, 163, 23);
   --main-accent1-color: rgb(217, 19, 220);
-  --main-accent2-color:rgb(1, 1, 21);
+  --main-accent2-color: rgb(1, 1, 21);
   --main-accent3-color: rgb(20, 205, 196);
   --main-accent4-color: gray;
-  --main-test-color: hotpink;  */
+  --main-test-color: hotpink;
+}
 
-/* PRETTY IN PINK*/
-/* --main-background-color:  rgb(105, 13, 109);
-  --main-text-color:rgb(111, 218, 225);
+:root.prettyInPink {
+  --main-background-color: rgb(105, 13, 109);
+  --main-text-color: rgb(111, 218, 225);
   --main-accent1-color: rgb(0, 0, 0);
   --main-accent2-color: rgb(92, 87, 87);
   --main-accent3-color: rgb(172, 174, 174);
   --main-accent4-color: rgb(4, 82, 87);
-  --main-test-color: GREEN;  */
+  --main-test-color: GREEN;
+}
 
-/* HOW 'BOUT THEM COWBOYZ*/
-/* --main-background-color:  rgb(2, 2, 46);
+:root.demBoyz {
+  --main-background-color: rgb(2, 2, 46);
   --main-accent2-color: rgb(245, 240, 245);
-  --main-text-color:rgb(133, 138, 138);
+  --main-text-color: rgb(133, 138, 138);
   --main-accent3-color: rgb(137, 159, 177);
   --main-accent1-color: rgb(37, 37, 39);
   --main-accent4-color: rgb(238, 10, 223);
-  --main-test-color: GREEN; */
+  --main-test-color: GREEN;
+}
 
-/* HEY! WHAT IS YOUR FAVORITE COLOR?*/
-/* --main-background-color:  rgb(16, 16, 17);
+/* :root.pickFaveColor {
+  --main-background-color: rgb(16, 16, 17);
   --main-accent4-color: rgb(160, 158, 158);
   --main-accent1-color: rgb(255, 255, 255);
-  --main-text-color:rgb(150, 6, 255);
+  --main-text-color: rgb(150, 6, 255);
   --main-accent3-color: rgb(68, 68, 68);
   --main-accent2-color: rgb(75, 0, 130);
-  --main-test-color: GREEN; */
+  --main-test-color: GREEN;
+} */
 
 /* --main-background-color:  rgb(16, 16, 17);
   --main-accent2-color:rgb(150, 6, 255);
@@ -107,7 +116,7 @@
   --main-accent4-color: teal;
   --main-test-color: GREEN; */
 
-:root {
+/* :root {
   --main-background-color: rgb(255, 255, 255);
   --main-text-color: rgb(165, 165, 165);
   --main-accent1-color: rgb(67, 67, 71);
@@ -115,12 +124,13 @@
   --main-accent3-color: rgb(0, 0, 0);
   --main-accent4-color: teal;
   --main-test-color: GREEN;
-}
+} */
 
 header {
   width: 100vw;
   display: flex;
   flex-direction: column;
+  background-color: var(--main-background-color);
 }
 
 .loriLogo {
@@ -129,8 +139,8 @@ header {
 }
 
 body {
-  background-color: var(--main-text-color);
-  color: var(--main-accent3-color);
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
   font-family: "Mulish", sans-serif;
   font-size: 2em;
   display: flex;
@@ -155,7 +165,6 @@ h1 {
 }
 
 .thankYou {
-  display: none;
   align-self: center;
   height: 10%;
   position: absolute;
@@ -163,20 +172,20 @@ h1 {
 
 .line1 {
   height: 15px;
-  background-color: var(--main-background-color);
+  background-color: var(--main-accent2-color);
   border: none;
 }
 
 .line2 {
   height: 20px;
-  background-color: var(--main-accent3-color);
+  background-color: var(--main-accent1-color);
   border: none;
   margin-top: -10px;
 }
 
 .line3 {
   height: 10px;
-  background-color: var(--main-accent4-color);
+  background-color: var(--main-accent3-color);
   border: none;
   margin-top: -10px;
 }
@@ -184,6 +193,25 @@ h1 {
 .thankYou:hover {
   animation: thanks 3s 1;
 }
+
+/* color picking buttons and themes: */
+
+.theme-btn {
+  width: 150px;
+  height: 135px;
+  padding: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+/* .theme-btn img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  } */
 
 input {
   background-color: var(--main-accent3-color);
@@ -193,8 +221,9 @@ input {
 a {
   color: var(--main-accent4-color);
 }
+
 .contactInfo {
-  color: var(--main-background-color);
+  color: var(--main-text-color);
   display: flex;
   flex-direction: column;
   align-items: flex-end;

@@ -21,8 +21,21 @@
 //   }
 // }
 
-var setTheme = theme => document.documentElement.className = theme;
 
+const setTheme = theme => document.documentElement.className = theme;
+    
+//   document.getElementById('theme-select').addEventListener('click', function () {
+//     setTheme(this.value);
+//     localStorage.setItem('theme', theme);
+//     console.log("theme chosen is: " + theme);
+//     });
+
+//     const getTheme = () => {
+//       const theme = localStorage.getItem('theme');
+//       theme && setTheme(theme);
+//       }
+      
+// getTheme();
 
 // function myAlert() {
 //   alert("I voted.");

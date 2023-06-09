@@ -1,3 +1,112 @@
+/* PATRIOTIC:*/
+
+/* --main-background-color: #040113;
+  --main-text-color: #f6f0dd;
+  --main-accent1-color: #6e0202;
+  --main-accent2-color: #090de6;
+  --main-accent4-color: #4e4e50;
+  --main-accent3-color: #2c2c2d;
+  --main-test-color: #de0ac5;  */
+/* 
+
+/* MY STYLE*/
+/* --main-background-color: #09022c;
+--main-text-color: #f6f0dd;
+--main-accent1-color: #91268f;
+--main-accent2-color: #025e61;
+--main-accent3-color: #15BCBE;
+--main-accent4-color: #96e0e1;
+--main-test-color: RED; */
+
+/* SO JADED*/
+/* --main-background-color:  #04332c;
+  --main-text-color: #79f8e5;
+  --main-accent1-color: #044d42;
+  --main-accent2-color:#454848;
+  --main-accent3-color: #8f9191;
+  --main-accent4-color: #09b59b;
+  --main-test-color: LIME; */
+
+/* THAT 70s VIBE*/
+/* --main-background-color: rgb(35, 16, 2);
+--main-text-color:  #f7e38c;
+--main-accent1-color: #db6008;
+--main-accent2-color: #e98b2d;
+--main-accent4-color:#ebc109;
+--main-accent3-color: LIME;
+--main-test-color: #51e2c2; */
+
+/* AAAHHH THE 80s*/
+/* --main-background-color:  #080b09;
+  --main-text-color: white;
+  --main-accent4-color: #dafb04;
+  --main-accent2-color: #d30fd9;
+  --main-accent3-color: #27d310;
+  --main-accent1-color:#8b17d8;
+  --main-test-color: rgb(9, 143, 225); */
+
+/* RED, WHITE N BLUE*/
+/* --main-background-color:  gray;
+  --main-accent3-color: red;
+  --main-text-color: white;
+  --main-accent2-color:blue;
+  --main-accent4-color: rgb(195, 166, 1);
+  --main-accent1-color: navy;
+  --main-test-color: hotpink; */
+
+/* SO DIVA*/
+/* --main-background-color:  white;
+  --main-text-color: rgb(10, 163, 23);
+  --main-accent1-color: rgb(217, 19, 220);
+  --main-accent2-color:rgb(1, 1, 21);
+  --main-accent3-color: rgb(20, 205, 196);
+  --main-accent4-color: gray;
+  --main-test-color: hotpink;  */
+
+/* PRETTY IN PINK*/
+/* --main-background-color:  rgb(105, 13, 109);
+  --main-text-color:rgb(111, 218, 225);
+  --main-accent1-color: rgb(0, 0, 0);
+  --main-accent2-color: rgb(92, 87, 87);
+  --main-accent3-color: rgb(172, 174, 174);
+  --main-accent4-color: rgb(4, 82, 87);
+  --main-test-color: GREEN;  */
+
+/* HOW 'BOUT THEM COWBOYZ*/
+/* --main-background-color:  rgb(2, 2, 46);
+  --main-accent2-color: rgb(245, 240, 245);
+  --main-text-color:rgb(133, 138, 138);
+  --main-accent3-color: rgb(137, 159, 177);
+  --main-accent1-color: rgb(37, 37, 39);
+  --main-accent4-color: rgb(238, 10, 223);
+  --main-test-color: GREEN; */
+
+/* HEY! WHAT IS YOUR FAVORITE COLOR?*/
+/* --main-background-color:  rgb(16, 16, 17);
+  --main-accent4-color: rgb(160, 158, 158);
+  --main-accent1-color: rgb(255, 255, 255);
+  --main-text-color:rgb(150, 6, 255);
+  --main-accent3-color: rgb(68, 68, 68);
+  --main-accent2-color: rgb(75, 0, 130);
+  --main-test-color: GREEN; */
+
+/* --main-background-color:  rgb(16, 16, 17);
+  --main-accent2-color:rgb(150, 6, 255);
+  --main-accent4-color: rgb(160, 158, 158);
+  --main-text-color: rgb(255, 255, 255);
+  --main-accent3-color: rgb(68, 68, 68);
+  --main-accent1-color: rgb(75, 0, 130);
+  --main-test-color: GREEN; */
+/* 
+  FAVORITE COLOR - WHITE BACKGROUND */
+/* --main-background-color:  rgb(255, 255, 255);
+  --main-text-color: rgb(165, 165, 165);
+  --main-accent1-color:rgb(67, 67, 71);
+  --main-accent2-color: rgb(3, 85, 112);
+  --main-accent3-color: rgb(0, 0, 0) ;
+  --main-accent4-color: teal;
+  --main-test-color: GREEN; */
+
 :root {
   --main-background-color: rgb(255, 255, 255);
   --main-text-color: rgb(165, 165, 165);
@@ -46,8 +155,9 @@ h1 {
 }
 
 .thankYou {
+  display: none;
   align-self: center;
-  height: 50%;
+  height: 10%;
   position: absolute;
 }
 

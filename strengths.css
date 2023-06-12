@@ -27,11 +27,17 @@ a {
 
 header {
   padding: 30px;
-  height: 50vh;
+  height: 350px;
   width: cover;
   background: var(--main-background-color);
   padding: 20px;
-  display: cover;
+  background-image: var(--main-bg-img);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .loriLogo {

@@ -13,174 +13,51 @@ make ability to toggle color scheme
 OR 
 based on: my favorite color is... and then that is the accent color with black/white/gray*/
 
+:root,
 body {
   background-color: var(--main-background-color);
   color: var(--main-text-color);
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   width: 100vw;
   margin: 0;
   padding: 0;
-} 
-/* PATRIOTIC:*/
-
-  /* --main-background-color: #040113;
-  --main-text-color: #f6f0dd;
-  --main-accent1-color: #6e0202;
-  --main-accent2-color: #090de6;
-  --main-accent4-color: #4e4e50;
-  --main-accent3-color: #2c2c2d;
-  --main-test-color: #de0ac5;  */
-/* 
-
-/* MY STYLE*/
-/* --main-background-color: #09022c;
---main-text-color: #f6f0dd;
---main-accent1-color: #91268f;
---main-accent2-color: #025e61;
---main-accent3-color: #15BCBE;
---main-accent4-color: #96e0e1;
---main-test-color: RED; */
-
-
-  /* SO JADED*/
-  /* --main-background-color:  #04332c;
-  --main-text-color: #79f8e5;
-  --main-accent1-color: #044d42;
-  --main-accent2-color:#454848;
-  --main-accent3-color: #8f9191;
-  --main-accent4-color: #09b59b;
-  --main-test-color: LIME; */
-
-/* THAT 70s VIBE*/
-/* --main-background-color: rgb(35, 16, 2);
---main-text-color:  #f7e38c;
---main-accent1-color: #db6008;
---main-accent2-color: #e98b2d;
---main-accent4-color:#ebc109;
---main-accent3-color: LIME;
---main-test-color: #51e2c2; */
-
-  /* AAAHHH THE 80s*/
-  /* --main-background-color:  #080b09;
-  --main-text-color: white;
-  --main-accent4-color: #dafb04;
-  --main-accent2-color: #d30fd9;
-  --main-accent3-color: #27d310;
-  --main-accent1-color:#8b17d8;
-  --main-test-color: rgb(9, 143, 225); */
-
-  /* RED, WHITE N BLUE*/
-  /* --main-background-color:  gray;
-  --main-accent3-color: red;
-  --main-text-color: white;
-  --main-accent2-color:blue;
-  --main-accent4-color: rgb(195, 166, 1);
-  --main-accent1-color: navy;
-  --main-test-color: hotpink; */
-
-  /* SO DIVA*/
-  /* --main-background-color:  white;
-  --main-text-color: rgb(10, 163, 23);
-  --main-accent1-color: rgb(217, 19, 220);
-  --main-accent2-color:rgb(1, 1, 21);
-  --main-accent3-color: rgb(20, 205, 196);
-  --main-accent4-color: gray;
-  --main-test-color: hotpink;  */
-
-  /* PRETTY IN PINK*/
-  /* --main-background-color:  rgb(105, 13, 109);
-  --main-text-color:rgb(111, 218, 225);
-  --main-accent1-color: rgb(0, 0, 0);
-  --main-accent2-color: rgb(92, 87, 87);
-  --main-accent3-color: rgb(172, 174, 174);
-  --main-accent4-color: rgb(4, 82, 87);
-  --main-test-color: GREEN;  */
-
-  /* HOW 'BOUT THEM COWBOYZ*/
-  /* --main-background-color:  rgb(2, 2, 46);
-  --main-accent2-color: rgb(245, 240, 245);
-  --main-text-color:rgb(133, 138, 138);
-  --main-accent3-color: rgb(137, 159, 177);
-  --main-accent1-color: rgb(37, 37, 39);
-  --main-accent4-color: rgb(238, 10, 223);
-  --main-test-color: GREEN; */
-
-  /* HEY! WHAT IS YOUR FAVORITE COLOR?*/
-  /* --main-background-color:  rgb(16, 16, 17);
-  --main-accent4-color: rgb(160, 158, 158);
-  --main-accent1-color: rgb(255, 255, 255);
-  --main-text-color:rgb(150, 6, 255);
-  --main-accent3-color: rgb(68, 68, 68);
-  --main-accent2-color: rgb(75, 0, 130);
-  --main-test-color: GREEN; */
-
-  /* --main-background-color:  rgb(16, 16, 17);
-  --main-accent2-color:rgb(150, 6, 255);
-  --main-accent4-color: rgb(160, 158, 158);
-  --main-text-color: rgb(255, 255, 255);
-  --main-accent3-color: rgb(68, 68, 68);
-  --main-accent1-color: rgb(75, 0, 130);
-  --main-test-color: GREEN; */
-/* 
-  FAVORITE COLOR - WHITE BACKGROUND */
-  /* --main-background-color:  rgb(255, 255, 255);
-  --main-text-color: rgb(165, 165, 165);
-  --main-accent1-color:rgb(67, 67, 71);
-  --main-accent2-color: rgb(3, 85, 112);
-  --main-accent3-color: rgb(0, 0, 0) ;
-  --main-accent4-color: teal;
-  --main-test-color: GREEN; */
-
-
-
-
-/* new root descriptions */
-:root {
-  --main-background-color:  rgb(255, 255, 255);
-  --main-text-color: rgb(165, 165, 165);
-  --main-accent1-color:rgb(67, 67, 71);
-  --main-accent2-color: rgb(3, 85, 112);
-  --main-accent3-color: rgb(0, 0, 0) ;
-  --main-accent4-color: teal;
-  --main-test-color: GREEN;
 }
 
 a {
-cursor: pointer;
-color: var(--main-accent2-color);
+  cursor: pointer;
+  color: var(--main-accent2-color);
 }
 
 .strengthLink {
   color: var(--main-accent2-color);
 }
 
-
 .strengthLink:hover {
   display: flex;
   color: var(--main-accent4-color);
 }
 
-header .strengths .list .dots{
+header .strengths .list .dots {
   color: black;
 }
 
-header .strengths .list .one{
+header .strengths .list .one {
   color: var(--main-accent1-color);
 }
 
-header .strengths .list .two{
+header .strengths .list .two {
   color: var(--main-accent2-color);
 }
 
-header .strengths .list .three{
+header .strengths .list .three {
   color: var(--main-accent3-color);
 }
 
-header .strengths .list .four{
+header .strengths .list .four {
   color: var(--main-accent4-color);
 }
 
-header .strengths .list .five{
+header .strengths .list .five {
   color: var(--main-text-color);
 }
 
@@ -189,23 +66,26 @@ header .strengths .list .five{
 #achiever,
 #belief,
 #positivity {
-  display:none;
+  display: none;
 }
 
 header {
   height: 25%;
   background: var(--main-background-color);
+  background-image: var(--main-bg-img);
+  background-repeat: no-repeat;
+  background-size: 25%;
   margin: 0;
   padding: 0;
-} 
+}
 
-header .loriLogo{
+/* header .loriLogo {
   height: 70%;
   margin: 10px;
   padding: 10px;
-}
+} */
 
-.list{
+.list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -214,7 +94,7 @@ header .loriLogo{
   width: 100%;
 }
 
-header .strengths .info{
+header .strengths .info {
   display: flex;
   justify-self: right;
   color: var(--main-text-color);
@@ -253,7 +133,6 @@ header .strengths .info{
   justify-content: space-evenly;
 }
 
-
 .aboutMe {
   display: flex;
   flex-direction: column;
@@ -262,7 +141,7 @@ header .strengths .info{
   padding: 20px;
 }
 
-h3{
+h3 {
   color: var(--main-accent2-color);
   text-align: center;
 }
@@ -274,7 +153,7 @@ h3{
 
 .aboutMe h1 {
   margin-top: 2%;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 3.5em;
   color: var(--main-accent4-color);
   display: flex;
@@ -283,13 +162,11 @@ h3{
   width: 100%;
 }
 
-
 .skillsListed {
   margin-top: 20%;
   padding: 24%;
   font-size: 1em;
 }
-
 
 .skillsList {
   font-size: 1.5em;
@@ -298,7 +175,6 @@ h3{
 .toggle {
   color: var(--main-accent3-color);
 }
-
 
 .collapsible {
   background-color: transparent;
@@ -324,12 +200,14 @@ h3{
   font-size: 1em;
 }
 
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: var(--main-accent2-color);
   color: var(--main-text-color);
 }
 
-.active, .collapsibleButton:hover {
+.active,
+.collapsibleButton:hover {
   background-color: var(--main-accent2-color);
   color: text;
 }
@@ -357,7 +235,7 @@ h3{
   margin-top: 20px;
   overflow: hidden;
   transition: max-height 3s ease-out;
-} 
+}
 
 .youGetMe {
   list-style: none;
@@ -367,12 +245,9 @@ h3{
   padding: 10px;
 }
 
-
-
-
 .box4 {
-  background:  var(--main-accent1-color);
-    /* padding: 10px; */
+  background: var(--main-accent1-color);
+  /* padding: 10px; */
   width: 85px;
   height: 10px;
   border-radius: 50%;
@@ -449,8 +324,7 @@ h3{
   flex-wrap: wrap;
   align-items: baseline;
   align-content: space-around;
- 
- 
+
   /* text-align: right;
   display: block;
   margin-right: 3%; */
@@ -502,13 +376,13 @@ h3{
   z-index: -5;
   animation: revRotationX 4s 8;
   position: absolute;
-} 
+}
 
 #box15,
 #box15a,
 #box15b,
 .box15 {
-  background:  transparent;
+  background: transparent;
   /* background-color: blue; */
   width: 0px;
   height: 0px;
@@ -517,7 +391,7 @@ h3{
   z-index: -4;
   animation: revRotationXY 6s 1s 6;
   position: absolute;
-} 
+}
 
 #box5y,
 #box5ya,
@@ -541,8 +415,8 @@ h3{
 .box14 {
   background: transparent;
   /* background-color: pink; */
-   width: 0px;
-   height: 0px;
+  width: 0px;
+  height: 0px;
   border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
   rotate: 30deg;
@@ -555,8 +429,8 @@ h3{
 #box6za,
 #box6zb,
 .box6z {
-  background:transparent;
-  /* background-color: yellow; */  
+  background: transparent;
+  /* background-color: yellow; */
   width: 0px;
   height: 0px;
   border: 13px dotted var(--main-accent2-color);
@@ -589,7 +463,7 @@ h3{
 .box7y {
   background: transparent;
   /* background-color: pink; */
-  width: 0px; 
+  width: 0px;
   height: 0px;
   border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
@@ -597,13 +471,13 @@ h3{
   z-index: -5;
   animation: revRotationX 4s 8;
   position: absolute;
-} 
+}
 
 #box12,
 #box12a,
 #box12b,
 .box12 {
-  background:transparent;
+  background: transparent;
   /* background-color: green; */
   width: 0px;
   height: 0px;
@@ -621,7 +495,7 @@ h3{
 .box8x {
   background: transparent;
   /* background-color: green; */
-  width: 0px; 
+  width: 0px;
   height: 0px;
   border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
@@ -653,9 +527,9 @@ h3{
 .box9z {
   background: transparent;
   /* background-color: blue; */
-  width: 0px; 
+  width: 0px;
   height: 0px;
-  border: 13px dotted var(--main-accent2-color); 
+  border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
   rotate: 155deg;
   z-index: -5;
@@ -679,54 +553,43 @@ h3{
   position: absolute;
 }
 
-
-
-
-
-
 .triangles {
   display: flex;
   justify-content: right;
   overflow: hidden;
 }
 
-
-
 .triangle {
   border-left: 475px solid transparent;
   border-right: 0px solid transparent;
   border-bottom: 500px solid var(--main-text-color);
   position: absolute;
-  z-index: -5;  
-} 
+  z-index: -5;
+}
 
 .triangle2 {
   border-left: 430px solid transparent;
   border-right: 0px solid transparent;
   border-bottom: 500px solid var(--main-accent1-color);
   position: absolute;
-  z-index: -4;  
-} 
+  z-index: -4;
+}
 
 .triangle3 {
   border-left: 510px solid transparent;
   border-right: 0px solid transparent;
   border-bottom: 500px solid var(--main-accent2-color);
   position: absolute;
-  z-index: -6;  
-} 
-
-
-
+  z-index: -6;
+}
 
 .title {
   margin-top: 15%;
   color: var(--main-text-color);
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 2em;
   z-index: 0;
 }
-
 
 .contactInfo {
   margin-top: 95%;
@@ -734,9 +597,8 @@ h3{
   color: var(--main-text-color);
   text-align: bottom;
   list-style: none;
-  position: sticky; 
+  position: sticky;
 }
-
 
 .thanks {
   color: var(--main-text-color);
@@ -744,7 +606,6 @@ h3{
   text-align: bottom left;
   z-index: 0;
   position: sticky;
-
 }
 
 /* .goHome {
@@ -759,7 +620,6 @@ h3{
   border-radius: 50%;
   padding: 15%;
 }  */
-
 
 @keyframes rotationX {
   from {
@@ -779,7 +639,6 @@ h3{
   }
 }
 
-
 @keyframes rotationY {
   from {
     transform: rotateY(0deg);
@@ -791,7 +650,7 @@ h3{
 
 /* fireworks */
 @keyframes revRotationX {
-  from { 
+  from {
     display: flex;
     width: 0px;
     height: 0px;
@@ -809,7 +668,7 @@ h3{
 }
 
 @keyframes revRotationXY {
-  from { 
+  from {
     display: flex;
     width: 0px;
     height: 0px;
@@ -828,257 +687,236 @@ h3{
   }
 }
 
-
-  
-  @media screen and (max-width: 1024px) {
-
-    header .strengths .list {
-      display: flex;
-      text-justify: center;
-      font-size: 1em;
-    }
-
-    .decor {
-      padding: 5%;
-    }
-
-    .contactInfo, .title {
-      margin-top: 95%;
-      color: var(--main-text-color);
-      text-align: right;
-      font-size: 1.25em;
-    }
-
-    .thanks {
-      color: var(--main-text-color);
-      font-size: 3em;
-      margin-top: 5%;
-    }
-  
+@media screen and (max-width: 1024px) {
+  header .strengths .list {
+    display: flex;
+    text-justify: center;
+    font-size: 1em;
   }
 
+  .decor {
+    padding: 5%;
+  }
 
+  .contactInfo,
+  .title {
+    margin-top: 95%;
+    color: var(--main-text-color);
+    text-align: right;
+    font-size: 1.25em;
+  }
+
+  .thanks {
+    color: var(--main-text-color);
+    font-size: 3em;
+    margin-top: 5%;
+  }
+}
 
 /* tablets */
 
-  
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  header .strengths .list {
+    display: flex;
+    text-justify: center;
+    font-size: 1em;
+  }
 
-    header .strengths .list {
-      display: flex;
-      text-justify: center;
-      font-size: 1em;
-    }
+  .decor {
+    padding: 25%;
+  }
 
-    .decor {
-      padding: 25%;
-    }
+  .borderProjects .projects {
+    font-size: 3em;
+    padding: 20%;
+  }
 
-    .borderProjects .projects{
-      font-size: 3em;
-      padding: 20%;
-    }
-
-
-    /* .triangles {
+  /* .triangles {
       display: none;
     } */
 
-    .contactInfo, .title {
-      margin-top: 95%;
-      margin-right: 5%;
-      color: var(--main-text-color);
-      text-align: right;
-      font-size: 1.2em;
-    }
-
-    .thanks {
-      color: var(--main-text-color);
-      font-size: 3em;
-      margin-top: 5%;
-    }
-  
+  .contactInfo,
+  .title {
+    margin-top: 95%;
+    margin-right: 5%;
+    color: var(--main-text-color);
+    text-align: right;
+    font-size: 1.2em;
   }
+
+  .thanks {
+    color: var(--main-text-color);
+    font-size: 3em;
+    margin-top: 5%;
+  }
+}
 
 /* phones */
 
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+  header .strengths .list {
+    display: flex;
+    text-justify: center;
+    font-size: 0.75em;
+  }
 
-    header .strengths .list {
-      display: flex;
-      text-justify: center;
-      font-size: 0.75em;
-    }
+  .decor {
+    padding: 25%;
+  }
 
-    .decor {
-      padding: 25%;
-    }
+  .triangles {
+    display: none;
+  }
 
-    .triangles {
-      display: none;
-    }
-
-
-    .style {
-      margin-top: -18%;
-      z-index: -3;
-    }
-/* 
+  .style {
+    margin-top: -18%;
+    z-index: -3;
+  }
+  /* 
     #theShow {
       height: 100px;
       width: 105%;
       font-size: 1.5em;
     } */
 
-    @keyframes revRotationX {
-      from { 
-        width: 0px;
-        height: 0px;
-        bottom: -150%;
-        transform: rotateX(180deg);
-        opacity: 100%;
-        color: var(--main-red-color);
-      }
-      to {
-        width: 150px;
-        height: 100px;
-        bottom: -80%;
-        transform: rotateX(90deg);
-        opacity: 0%;
-        color: var(--main-blue-color);
-      }
+  @keyframes revRotationX {
+    from {
+      width: 0px;
+      height: 0px;
+      bottom: -150%;
+      transform: rotateX(180deg);
+      opacity: 100%;
+      color: var(--main-red-color);
     }
-
-    @keyframes revRotationXY {
-      from { 
-        width: 0px;
-        height: 0px;
-        bottom: -150%;
-        transform: rotateX(180deg);
-        transform: rotateY(180deg);
-        opacity: 100%;
-        color: var(--main-pink-color);
-      }
-      to {
-        width: 200px;
-        height: 100px;
-        bottom: -50%;
-        transform: rotateX(90deg);
-        transform: rotateY(90deg);
-        opacity: 70%;
-        color: var(--main-green-color);
-      }
+    to {
+      width: 150px;
+      height: 100px;
+      bottom: -80%;
+      transform: rotateX(90deg);
+      opacity: 0%;
+      color: var(--main-blue-color);
     }
-
-
-   
-
-    .contactInfo, .title {
-      margin-top: 50%;
-      margin-right: 5%;
-      color: var(--main-text-color);
-      text-align: right;
-      font-size: 1.5em;
-    }
-
-    .thanks {
-      color: var(--main-text-color);
-      font-size: 2em;
-      margin-top: 15%;
-    }
-  
   }
 
-
-
-  @media screen and (max-width: 280px) {
-    .loriLogo {
-      width: 50vw;
+  @keyframes revRotationXY {
+    from {
+      width: 0px;
+      height: 0px;
+      bottom: -150%;
+      transform: rotateX(180deg);
+      transform: rotateY(180deg);
+      opacity: 100%;
+      color: var(--main-pink-color);
     }
-    header .strengths .list {
-      display: flex;
-      justify-content: center;
-      font-size: 0.75em;
-      padding: 10px;
+    to {
+      width: 200px;
+      height: 100px;
+      bottom: -50%;
+      transform: rotateX(90deg);
+      transform: rotateY(90deg);
+      opacity: 70%;
+      color: var(--main-green-color);
     }
+  }
 
-    /* .decor {
+  .contactInfo,
+  .title {
+    margin-top: 50%;
+    margin-right: 5%;
+    color: var(--main-text-color);
+    text-align: right;
+    font-size: 1.5em;
+  }
+
+  .thanks {
+    color: var(--main-text-color);
+    font-size: 2em;
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .loriLogo {
+    width: 50vw;
+  }
+  header .strengths .list {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75em;
+    padding: 10px;
+  }
+
+  /* .decor {
       padding: 25%;
     } */
 
-    .triangles {
-      display: none;
-    }
+  .triangles {
+    display: none;
+  }
 
-
-    .style {
-      margin-top: -18%;
-      z-index: -3;
-    }
-/* 
+  .style {
+    margin-top: -18%;
+    z-index: -3;
+  }
+  /* 
     #theShow {
       height: 100px;
       width: 105%;
       font-size: 1.5em;
     } */
 
-    @keyframes revRotationX {
-      from { 
-        width: 0px;
-        height: 0px;
-        bottom: -150%;
-        transform: rotateX(180deg);
-        opacity: 100%;
-        color: var(--main-red-color);
-      }
-      to {
-        width: 150px;
-        height: 100px;
-        bottom: -80%;
-        transform: rotateX(90deg);
-        opacity: 0%;
-        color: var(--main-blue-color);
-      }
+  @keyframes revRotationX {
+    from {
+      width: 0px;
+      height: 0px;
+      bottom: -150%;
+      transform: rotateX(180deg);
+      opacity: 100%;
+      color: var(--main-red-color);
     }
-
-    @keyframes revRotationXY {
-      from { 
-        width: 0px;
-        height: 0px;
-        bottom: -150%;
-        transform: rotateX(180deg);
-        transform: rotateY(180deg);
-        opacity: 100%;
-        color: var(--main-pink-color);
-      }
-      to {
-        width: 200px;
-        height: 100px;
-        bottom: -50%;
-        transform: rotateX(90deg);
-        transform: rotateY(90deg);
-        opacity: 70%;
-        color: var(--main-green-color);
-      }
+    to {
+      width: 150px;
+      height: 100px;
+      bottom: -80%;
+      transform: rotateX(90deg);
+      opacity: 0%;
+      color: var(--main-blue-color);
     }
-
-
-   
-
-    .contactInfo, .title {
-      margin-top: 50%;
-      margin-right: 5%;
-      color: var(--main-text-color);
-      text-align: right;
-      font-size: 1.5em;
-    }
-
-    .thanks {
-      color: var(--main-text-color);
-      font-size: 2em;
-      margin-top: 15%;
-    }
-  
   }
 
+  @keyframes revRotationXY {
+    from {
+      width: 0px;
+      height: 0px;
+      bottom: -150%;
+      transform: rotateX(180deg);
+      transform: rotateY(180deg);
+      opacity: 100%;
+      color: var(--main-pink-color);
+    }
+    to {
+      width: 200px;
+      height: 100px;
+      bottom: -50%;
+      transform: rotateX(90deg);
+      transform: rotateY(90deg);
+      opacity: 70%;
+      color: var(--main-green-color);
+    }
+  }
 
+  .contactInfo,
+  .title {
+    margin-top: 50%;
+    margin-right: 5%;
+    color: var(--main-text-color);
+    text-align: right;
+    font-size: 1.5em;
+  }
+
+  .thanks {
+    color: var(--main-text-color);
+    font-size: 2em;
+    margin-top: 15%;
+  }
+}

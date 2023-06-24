@@ -1,157 +1,127 @@
-/*
-
-make fireworks button to start show then switch to encore
-then make a better display for the encore 
-
-then work on color scheme
-
-fix a tag link color
-
-then add database for gathering information such as visits, voting, tracking of color chosen and some type of graph that reflects that.
-
-make ability to toggle color scheme
-OR 
-based on: my favorite color is... and then that is the accent color with black/white/gray*/
-
-:root,
 body {
   background-color: var(--main-background-color);
   color: var(--main-text-color);
   font-family: "Mulish", sans-serif;
-  width: 100vw;
   margin: 0;
   padding: 0;
+  font-size: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
-a {
+header {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: var(--main-background-color);
+  background-image: var(--main-bg-img);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  padding: 5%;
+}
+
+.info {
+  text-align: center;
+}
+
+/* a {
   cursor: pointer;
   color: var(--main-accent2-color);
-}
+} */
 
 .strengthLink {
   color: var(--main-accent2-color);
 }
 
 .strengthLink:hover {
-  display: flex;
   color: var(--main-accent4-color);
 }
-
-header .strengths .list .dots {
-  color: black;
-}
-
-header .strengths .list .one {
-  color: var(--main-accent1-color);
-}
-
-header .strengths .list .two {
-  color: var(--main-accent2-color);
-}
-
-header .strengths .list .three {
-  color: var(--main-accent3-color);
-}
-
-header .strengths .list .four {
-  color: var(--main-accent4-color);
-}
-
-header .strengths .list .five {
-  color: var(--main-text-color);
-}
-
-#responsibility,
-#developer,
-#achiever,
-#belief,
-#positivity {
-  display: none;
-}
-
-header {
-  height: 25%;
-  background: var(--main-background-color);
-  background-image: var(--main-bg-img);
-  background-repeat: no-repeat;
-  background-size: 25%;
-  margin: 0;
-  padding: 0;
-}
-
-/* header .loriLogo {
-  height: 70%;
-  margin: 10px;
-  padding: 10px;
-} */
 
 .list {
+  padding: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  font-size: 2.5em;
+  font-size: 2em;
   width: 100%;
+  list-style: none;
 }
 
-header .strengths .info {
+.strengths {
   display: flex;
-  justify-self: right;
-  color: var(--main-text-color);
-  font-size: 1.5em;
-  margin-right: 1%;
-  margin-left: 29%;
-  text-align: right;
-  width: 70%;
+  flex-direction: row;
 }
+/* 
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-content: space-around;
+  flex-wrap: wrap;
+} */
 
-.border .line1 {
-  background-color: var(--main-accent1-color);
-  height: 10px;
-  border: none;
-}
+/* li {
+  list-style: none;
+} */
+/* 
+.container a {
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  height: 55px;
+  width: 100%;
+  float: left;
+  color: var(--main-background-color);
+  font-size: 2em;
+  text-align: center;
+  overflow: hidden;
+} */
 
-.border .line2 {
+/* .line1 {
   background-color: var(--main-accent3-color);
-  height: 10px;
-  margin-top: -10px;
   border: none;
-}
-
-.border .line3 {
-  background-color: var(--main-text-color);
-  height: 15px;
-  margin-top: -10px;
-  margin-bottom: 5%;
+} */
+/* 
+.line2 {
+  background-color: var(--main-accent2-color);
   border: none;
-}
+} */
+/* 
+.line3 {
+  background-color: var(--main-accent1-color);
+  border: none;
+} */
 
-.decor {
+/* started here */
+/* .decor {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-evenly;
-}
+} */
 
-.aboutMe {
+/* .aboutMe {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: 20px;
-}
+} */
 
-h3 {
+/* h3 {
   color: var(--main-accent2-color);
   text-align: center;
-}
+} */
 
-.skillsInfo {
+/* .skillsInfo {
   margin-top: 5%;
   color: var(--main-accent3-color);
-}
+} */
 
-.aboutMe h1 {
+/* .aboutMe h1 {
   margin-top: 2%;
   font-family: "Great Vibes", cursive;
   font-size: 3.5em;
@@ -160,23 +130,23 @@ h3 {
   justify-content: center;
   list-style: none;
   width: 100%;
-}
+} */
 
-.skillsListed {
+/* .skillsListed {
   margin-top: 20%;
   padding: 24%;
   font-size: 1em;
-}
-
+} */
+/* 
 .skillsList {
   font-size: 1.5em;
 }
 
 .toggle {
   color: var(--main-accent3-color);
-}
+} */
 
-.collapsible {
+/* .collapsible {
   background-color: transparent;
   color: var(--main-accent2-color);
   cursor: pointer;
@@ -198,8 +168,8 @@ h3 {
   text-align: center;
   outline: none;
   font-size: 1em;
-}
-
+} */
+/* 
 .active,
 .collapsible:hover {
   background-color: var(--main-accent2-color);
@@ -210,9 +180,9 @@ h3 {
 .collapsibleButton:hover {
   background-color: var(--main-accent2-color);
   color: text;
-}
+} */
 
-.content {
+/* .content {
   color: var(--main-text-color);
   font-size: 1.5em;
   background-color: transparent;
@@ -235,20 +205,20 @@ h3 {
   margin-top: 20px;
   overflow: hidden;
   transition: max-height 3s ease-out;
-}
+} */
 
-.youGetMe {
+/* .youGetMe {
   list-style: none;
 }
 
 .youGetMe li {
   padding: 10px;
-}
-
+} */
+/* 
 .box4 {
-  background: var(--main-accent1-color);
-  /* padding: 10px; */
-  width: 85px;
+  background: var(--main-accent1-color); */
+/* padding: 10px; */
+/* width: 85px;
   height: 10px;
   border-radius: 50%;
   z-index: -7;
@@ -256,9 +226,9 @@ h3 {
 }
 
 .box5 {
-  background: var(--main-text-color);
-  /* padding: 10px; */
-  width: 85px;
+  background: var(--main-text-color); */
+/* padding: 10px; */
+/* width: 85px;
   height: 10px;
   border-radius: 50%;
   rotate: 30deg;
@@ -268,9 +238,9 @@ h3 {
 }
 
 .box6 {
-  background: var(--main-accent3-color);
-  /* padding: 10px; */
-  width: 85px;
+  background: var(--main-accent3-color); */
+/* padding: 10px; */
+/* width: 85px;
   height: 10px;
   border-radius: 50%;
   rotate: 60deg;
@@ -280,9 +250,9 @@ h3 {
 }
 
 .box7 {
-  background: var(--main-text-color);
-  /* padding: 10px; */
-  width: 85px;
+  background: var(--main-text-color); */
+/* padding: 10px; */
+/* width: 85px;
   height: 10px;
   border-radius: 50%;
   margin-top: -15%;
@@ -292,9 +262,9 @@ h3 {
 }
 
 .box8 {
-  background: var(--main-accent1-color);
-  /* padding: 10px; */
-  width: 85px;
+  background: var(--main-accent1-color); */
+/* padding: 10px; */
+/* width: 85px;
   height: 10px;
   border-radius: 50%;
   rotate: 90deg;
@@ -304,9 +274,9 @@ h3 {
 }
 
 .box9 {
-  background: var(--main-accent3-color);
-  /* padding: 10px; */
-  width: 85px;
+  background: var(--main-accent3-color); */
+/* padding: 10px; */
+/* width: 85px;
   height: 10px;
   border-radius: 50%;
   rotate: 155deg;
@@ -323,25 +293,25 @@ h3 {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: baseline;
-  align-content: space-around;
+  align-content: space-around; */
 
-  /* text-align: right;
+/* text-align: right;
   display: block;
-  margin-right: 3%; */
+  margin-right: 3%; 
 }
 
-.style {
+/* .style {
   z-index: -6;
   margin-top: 5%;
 }
 
 .fireworks {
-  display: flex;
-  /* flex-direction: column-reverse;
+  display: flex; */
+/* flex-direction: column-reverse;
   justify-content: space-evenly; */
-  align-items: flex-end;
+/* align-items: flex-end;
   z-index: 0;
-}
+} */
 
 /* #theShow {
   background-color: var(--main-accent2-color);
@@ -356,20 +326,20 @@ h3 {
 #theShow:active {
   transform: scale(0.75);
 } */
-#cover {
+/* #cover {
   background-color: var(--main-background-color);
   height: 50px;
   width: 50px;
   z-index: 0;
-}
+} */
 
-#box4x,
+/* #box4x,
 #box4xa,
 #box4xb,
 .box4x {
-  background: transparent;
-  /* background-color: blue;*/
-  width: 0px;
+  background: transparent; */
+/* background-color: blue;*/
+/* width: 0px;
   height: 0px;
   border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
@@ -382,9 +352,9 @@ h3 {
 #box15a,
 #box15b,
 .box15 {
-  background: transparent;
-  /* background-color: blue; */
-  width: 0px;
+  background: transparent; */
+/* background-color: blue; */
+/* width: 0px;
   height: 0px;
   border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
@@ -413,9 +383,9 @@ h3 {
 #box14a,
 #box14b,
 .box14 {
-  background: transparent;
-  /* background-color: pink; */
-  width: 0px;
+  background: transparent; */
+/* background-color: pink; */
+/* width: 0px;
   height: 0px;
   border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
@@ -429,9 +399,9 @@ h3 {
 #box6za,
 #box6zb,
 .box6z {
-  background: transparent;
-  /* background-color: yellow; */
-  width: 0px;
+  background: transparent; */
+/* background-color: yellow; */
+/* width: 0px;
   height: 0px;
   border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
@@ -445,9 +415,9 @@ h3 {
 #box13a,
 #box13b,
 .box13 {
-  background: transparent;
-  /* background-color: yellow; */
-  width: 0px;
+  background: transparent; */
+/* background-color: yellow; */
+/* width: 0px;
   height: 0px;
   border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
@@ -461,9 +431,9 @@ h3 {
 #box7ya,
 #box7yb,
 .box7y {
-  background: transparent;
-  /* background-color: pink; */
-  width: 0px;
+  background: transparent; */
+/* background-color: pink; */
+/* width: 0px;
   height: 0px;
   border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
@@ -477,9 +447,9 @@ h3 {
 #box12a,
 #box12b,
 .box12 {
-  background: transparent;
-  /* background-color: green; */
-  width: 0px;
+  background: transparent; */
+/* background-color: green; */
+/* width: 0px;
   height: 0px;
   border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
@@ -493,9 +463,9 @@ h3 {
 #box8xa,
 #box8xb,
 .box8x {
-  background: transparent;
-  /* background-color: green; */
-  width: 0px;
+  background: transparent; */
+/* background-color: green; */
+/* width: 0px;
   height: 0px;
   border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
@@ -509,9 +479,9 @@ h3 {
 #box11a,
 #box11b,
 .box11 {
-  background: transparent;
-  /* background-color: green; */
-  width: 0px;
+  background: transparent; */
+/* background-color: green; */
+/* width: 0px;
   height: 0px;
   border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
@@ -525,9 +495,9 @@ h3 {
 #box9za,
 #box9zb,
 .box9z {
-  background: transparent;
-  /* background-color: blue; */
-  width: 0px;
+  background: transparent; */
+/* background-color: blue; */
+/* width: 0px;
   height: 0px;
   border: 13px dotted var(--main-accent2-color);
   border-radius: 50%;
@@ -541,9 +511,9 @@ h3 {
 #box10a,
 #box10b,
 .box10 {
-  background: transparent;
-  /* background: green; */
-  width: 0px;
+  background: transparent; */
+/* background: green; */
+/* width: 0px;
   height: 0px;
   border: 8px dotted var(--main-accent4-color);
   border-radius: 50%;
@@ -551,8 +521,8 @@ h3 {
   z-index: -4;
   animation: revRotationXY 6s 1s 6;
   position: absolute;
-}
-
+} */
+/* 
 .triangles {
   display: flex;
   justify-content: right;
@@ -581,9 +551,9 @@ h3 {
   border-bottom: 500px solid var(--main-accent2-color);
   position: absolute;
   z-index: -6;
-}
+} */
 
-.title {
+/* .title {
   margin-top: 15%;
   color: var(--main-text-color);
   font-family: "Great Vibes", cursive;
@@ -606,7 +576,7 @@ h3 {
   text-align: bottom left;
   z-index: 0;
   position: sticky;
-}
+} */
 
 /* .goHome {
   display: flex;
@@ -620,7 +590,7 @@ h3 {
   border-radius: 50%;
   padding: 15%;
 }  */
-
+/* 
 @keyframes rotationX {
   from {
     transform: rotate(0deg);
@@ -646,10 +616,10 @@ h3 {
   to {
     transform: rotateY(360deg);
   }
-}
+} */
 
 /* fireworks */
-@keyframes revRotationX {
+/* @keyframes revRotationX {
   from {
     display: flex;
     width: 0px;
@@ -685,14 +655,9 @@ h3 {
     transform: rotateY(90deg);
     opacity: 70%;
   }
-}
+} */
 
-@media screen and (max-width: 1024px) {
-  header .strengths .list {
-    display: flex;
-    text-justify: center;
-    font-size: 1em;
-  }
+/* @media screen and (max-width: 1024px) {
 
   .decor {
     padding: 5%;
@@ -711,16 +676,11 @@ h3 {
     font-size: 3em;
     margin-top: 5%;
   }
-}
+} */
 
 /* tablets */
 
-@media screen and (max-width: 768px) {
-  header .strengths .list {
-    display: flex;
-    text-justify: center;
-    font-size: 1em;
-  }
+/* @media screen and (max-width: 768px) {
 
   .decor {
     padding: 25%;
@@ -729,13 +689,13 @@ h3 {
   .borderProjects .projects {
     font-size: 3em;
     padding: 20%;
-  }
+  } */
 
-  /* .triangles {
+/* .triangles {
       display: none;
     } */
 
-  .contactInfo,
+/* .contactInfo,
   .title {
     margin-top: 95%;
     margin-right: 5%;
@@ -749,18 +709,55 @@ h3 {
     font-size: 3em;
     margin-top: 5%;
   }
-}
+} */
 
 /* phones */
+/* 
+@media screen and (max-width: 820px) {
 
-@media screen and (max-width: 480px) {
-  header .strengths .list {
-    display: flex;
-    text-justify: center;
-    font-size: 0.75em;
+  .container {
+    font-size: 0.5em;
+  }
+} */
+
+@media screen and (max-width: 780px) {
+  header {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
   }
 
-  .decor {
+  .info {
+    margin-top: 20%;
+  }
+
+  .strengths {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .dots {
+    display: none;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1em;
+    width: 100%;
+    list-style: none;
+  }
+
+  .container {
+    font-size: 1em;
+  }
+}
+
+/* .decor {
     padding: 25%;
   }
 
@@ -771,15 +768,16 @@ h3 {
   .style {
     margin-top: -18%;
     z-index: -3;
-  }
-  /* 
+  } 
+}
+/* 
     #theShow {
       height: 100px;
       width: 105%;
       font-size: 1.5em;
     } */
 
-  @keyframes revRotationX {
+/* @keyframes revRotationX {
     from {
       width: 0px;
       height: 0px;
@@ -833,8 +831,8 @@ h3 {
     font-size: 2em;
     margin-top: 15%;
   }
-}
-
+} */
+/* 
 @media screen and (max-width: 280px) {
   .loriLogo {
     width: 50vw;
@@ -844,12 +842,12 @@ h3 {
     justify-content: center;
     font-size: 0.75em;
     padding: 10px;
-  }
+  } */
 
-  /* .decor {
+/* .decor {
       padding: 25%;
     } */
-
+/* 
   .triangles {
     display: none;
   }
@@ -857,15 +855,15 @@ h3 {
   .style {
     margin-top: -18%;
     z-index: -3;
-  }
-  /* 
+  } */
+/* 
     #theShow {
       height: 100px;
       width: 105%;
       font-size: 1.5em;
     } */
 
-  @keyframes revRotationX {
+/* @keyframes revRotationX {
     from {
       width: 0px;
       height: 0px;
@@ -882,9 +880,9 @@ h3 {
       opacity: 0%;
       color: var(--main-blue-color);
     }
-  }
+  } */
 
-  @keyframes revRotationXY {
+/* @keyframes revRotationXY {
     from {
       width: 0px;
       height: 0px;
@@ -903,8 +901,8 @@ h3 {
       opacity: 70%;
       color: var(--main-green-color);
     }
-  }
-
+  } */
+/* 
   .contactInfo,
   .title {
     margin-top: 50%;
@@ -919,4 +917,4 @@ h3 {
     font-size: 2em;
     margin-top: 15%;
   }
-}
+} */

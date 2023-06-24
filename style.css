@@ -129,6 +129,9 @@ h3 {
 .skill,
 .skillsListed {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* .aboutMe h1 {

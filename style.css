@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  justify-content: center;
 }
 
 header {
@@ -26,10 +27,10 @@ header {
   text-align: center;
 }
 
-/* a {
+a :visited {
   cursor: pointer;
   color: var(--main-accent2-color);
-} */
+}
 
 .strengthLink {
   color: var(--main-accent2-color);
@@ -54,46 +55,52 @@ header {
   display: flex;
   flex-direction: row;
 }
-/* 
+
 .container {
   display: flex;
   flex-direction: column;
-  padding: 5%;
-  align-content: space-around;
   flex-wrap: wrap;
-} */
+  align-items: center;
+}
 
-/* li {
+li {
   list-style: none;
-} */
-/* 
+}
+
 .container a {
   margin: 0;
   padding: 10px;
   overflow: hidden;
-  height: 55px;
-  width: 100%;
+  height: 35px;
+  width: 100vw;
   float: left;
   color: var(--main-background-color);
   font-size: 2em;
   text-align: center;
-  overflow: hidden;
+}
+
+/* .line1,
+.line2,
+.line3 {
+  width: 100%;
 } */
 
-/* .line1 {
+.line1 {
   background-color: var(--main-accent3-color);
   border: none;
-} */
-/* 
+  font-size: 2em;
+}
+
 .line2 {
   background-color: var(--main-accent2-color);
   border: none;
-} */
-/* 
+  font-size: 2em;
+}
+
 .line3 {
   background-color: var(--main-accent1-color);
-  border: none;
-} */
+  font-size: 2em;
+}
 
 /* started here */
 /* .decor {

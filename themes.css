@@ -1,15 +1,15 @@
 :root,
 
 /* default */
-:root {
-  --main-bg-img: url("images/logo.purple.png");
-  --main-background-color: rgb(219, 217, 217);
-  --main-text-color: rgb(165, 165, 165);
-  --main-accent1-color: rgb(67, 67, 71);
-  --main-accent2-color: rgb(3, 85, 112);
-  --main-accent3-color: rgb(0, 0, 0);
-  --main-accent4-color: teal;
-  --main-test-color: GREEN;
+:root.default {
+  --main-bg-img: url("images/logo.black.png");
+  --main-background-color: #dbd9d9;
+  --main-text-color: #a5a5a5;
+  --main-accent1-color: #434347;
+  --main-accent2-color: #02484b;
+  --main-accent3-color: #000000;
+  --main-accent4-color: #02484b;
+  --main-test-color: #008000;
 }
 
 :root.patriotic {
@@ -99,15 +99,16 @@
   --main-test-color: #008000;
 }
 
-/* :root.demBoyz {
-  --main-background-color: rgb(2, 2, 46);
-  --main-accent2-color: rgb(245, 240, 245);
-  --main-text-color: rgb(133, 138, 138);
-  --main-accent3-color: rgb(137, 159, 177);
-  --main-accent1-color: rgb(37, 37, 39);
-  --main-accent4-color: rgb(238, 10, 223);
-  --main-test-color: GREEN;
-} */
+:root.demBoyz {
+  --main-bg-img: url("images/logo.white.png");
+  --main-background-color: #02022e;
+  --main-accent2-color: #ffffff;
+  --main-text-color: #a5a9a9;
+  --main-accent3-color: #787b80;
+  --main-accent1-color: #d1ede784;
+  --main-accent4-color: #f608ea;
+  --main-test-color: #40e0d0;
+}
 
 /* :root.pickFaveColor {
   --main-background-color: rgb(16, 16, 17);

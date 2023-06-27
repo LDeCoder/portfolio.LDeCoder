@@ -132,7 +132,6 @@ h3 {
 }
 
 .skillsInfo {
-  /* margin-top: 5%; */
   color: var(--main-accent3-color);
 }
 
@@ -178,9 +177,7 @@ h1 {
   outline: none;
   font-size: 1em;
 }
-*/
-/* 
-.active,
+*/ .active,
 .collapsible:hover {
   background-color: var(--main-accent2-color);
   color: var(--main-text-color);
@@ -190,15 +187,14 @@ h1 {
 .collapsibleButton:hover {
   background-color: var(--main-accent2-color);
   color: text;
-} */
- .content {
+}
+.content {
   color: var(--main-text-color);
   font-size: 1.5em;
   background-color: transparent;
   text-align: center;
   padding: 0 25px;
   max-height: 0;
-  max-width: 70%;
   overflow: hidden;
   transition: max-height 3s ease-out;
 }
@@ -286,16 +282,11 @@ h1 {
   animation: rotation 10s infinite;
 }
 
-/* .focalPoint {
-  text-align: right;
+.focalPoint {
   display: flex;
   margin-right: 3%;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: baseline;
-  align-content: space-around; */
-
+  flex-direction: column;
+}
 /* text-align: right;
   display: block;
   margin-right: 3%; 
@@ -523,53 +514,58 @@ h1 {
   animation: revRotationXY 6s 1s 6;
   position: absolute;
 } */
-/* 
-.triangles {
+
+#triangles {
   display: flex;
-  justify-content: right;
-  overflow: hidden;
+  /* flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center; */
 }
 
-.triangle {
-  border-left: 475px solid transparent;
+#triangle {
   border-right: 0px solid transparent;
-  border-bottom: 500px solid var(--main-text-color);
   position: absolute;
   z-index: -5;
 }
 
-.triangle2 {
-  border-left: 430px solid transparent;
+#triangle2 {
   border-right: 0px solid transparent;
-  border-bottom: 500px solid var(--main-accent1-color);
   position: absolute;
   z-index: -4;
 }
 
-.triangle3 {
-  border-left: 510px solid transparent;
+#triangle3 {
   border-right: 0px solid transparent;
-  border-bottom: 500px solid var(--main-accent2-color);
   position: absolute;
-  z-index: -6;
-} */
-
-/* .title {
-  margin-top: 15%;
-  color: var(--main-text-color);
-  font-family: "Great Vibes", cursive;
-  font-size: 2em;
-  z-index: 0;
+  z-index: -2;
 }
 
 .contactInfo {
+  z-index: 0;
+  color: var(--main-text-color);
+  text-align: left;
+  list-style: none;
+}
+
+.title {
+  /* margin-top: 25%; */
+  color: var(--main-text-color);
+  font-family: "Great Vibes", cursive;
+  font-size: 4em;
+  z-index: -3;
+  rotate: 341deg;
+}
+
+/* .contactInfo {
   margin-top: 95%;
   z-index: 0;
   color: var(--main-text-color);
   text-align: bottom;
   list-style: none;
   position: sticky;
-}
+} 
 
 .thanks {
   color: var(--main-text-color);
@@ -754,8 +750,20 @@ h1 {
     list-style: none;
   }
 
+  .content {
+    padding: 0;
+  }
+
   .container {
     font-size: 1em;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  .triangles {
+    max-width: 300px;
   }
 }
 

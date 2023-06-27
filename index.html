@@ -51,6 +51,12 @@
         <h2 class="choose">Please choose your favorite color scheme.</h2>
         <div id="themeS-select" class="toggle-container">
           <button
+            class="theme theme-btn default"
+            onclick="setTheme('default')"
+            title="default"
+            style="background-image: url('images/logoLD.png')"
+          ></button>
+          <button
             class="theme theme-btn myStyle"
             onclick="setTheme('myStyle')"
             title="My Style"
@@ -75,6 +81,12 @@
             style="background-image: url('images/patriotic50.png')"
           ></button>
           <button
+            class="theme theme-btn patriotic"
+            onclick="setTheme('demBoyz')"
+            title="demBoyz"
+            style="background-image: url('images/demBoyz.png')"
+          ></button>
+          <button
             class="theme theme-btn that70vibe"
             onclick="setTheme('that70vibe')"
             title="That 70s vibe"
@@ -93,24 +105,19 @@
             style="background-image: url('images/prettyInPink50.png')"
           ></button>
         </div>
-             <h2 class="choose">
-   <strong>COMING SOON!</strong><br/>
-   New content and features 
-      </h2>
-      <h1 class="thankYou">Thank you for visiting!</h1>
+        <h2 class="choose">
+          <strong>COMING SOON!</strong><br />
+          New content and features
+        </h2>
+        <h1 class="thankYou">Thank you for visiting!</h1>
       </div>
     </div>
   </body>
   <script src="script.js"></script>
 </html>
 
-
-
-
-
-
 <!-- future feature: -->
- <!-- <form>
+<!-- <form>
             <input type="checkbox" id="color1" name="color1" value="color1" />
             <label for="color1" onclick="myFavoriteColor()">
               I choose green.</label
@@ -125,14 +132,14 @@
             ><br /><br />
             <input type="submit" value="Submit" />
               </form> -->
-            </div>
-            <!-- <br />
+<!-- </div> -->
+<!-- <br />
               <button onclick="myFavoriteColor()" class="submit">
                 click to submit
               </button>
               <p id="text" style="display: none">The checkbox is checked.</p>
             </form> -->
-            <!-- <h3 class="details">
+<!-- <h3 class="details">
               Before you proceed, Please provide a little information. This will make
               it both fun and interactive - and let me know you stopped by.
             </h3>
@@ -147,4 +154,3 @@
               <br />
               <input type="submit" value="Submit" />
             </form> -->
-      

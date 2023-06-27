@@ -1,18 +1,16 @@
 
 // all - html pages
 
-
 const setTheme = (theme) => {
   document.documentElement.className = theme;
   localStorage.setItem('theme', theme);
-}
+};
 const getTheme = () => {
   const theme = localStorage.getItem('theme');
   theme && setTheme(theme);
-  }
+};
+
 getTheme();
-
-
   
 // index-html page
 
@@ -58,7 +56,7 @@ function theShow() {
   var e = document.getElementById("box14");
   var w = document.getElementById("box6z");
   var o = document.getElementById("box13");
-  var r = document.getElementById("box7y");
+  var rr = document.getElementById("box7y");
   var k = document.getElementById("box12");
   var s = document.getElementById("box8x");
   var h = document.getElementById("box11");
@@ -73,7 +71,7 @@ function theShow() {
     e.style.animation = "revRotationXY 1s 5";
     w.style.animation = "revRotationX 5s 2";
     o.style.animation = "revRotationXY 1s 5";
-    r.style.animation = "revRotationX 5s 2";
+    rr.style.animation = "revRotationX 5s 2";
     k.style.animation = "revRotationXY 1s 5";
     s.style.animation = "revRotationX 5s 2";
     h.style.animation = "revRotationXY 1s 5";
@@ -82,6 +80,31 @@ function theShow() {
   }
 
 }
+
+
+// tSize();
+
+// function tSize() {
+
+//   var nw = window.innerWidth * 0.25 + "px solid transparent";
+//   var nw2 = window.innerWidth * 0.275 + "px solid transparent";
+//   var nw3 = window.innerWidth * 0.3 + "px solid transparent";
+
+//   var nx = document.getElementById("triangle");
+//   var nx2 = document.getElementById("triangle2");
+//   var nx3 = document.getElementById("triangle3");
+
+//   var nb = window.innerHeight * 0.35 + "px solid red";
+//   var nb2 = window.innerHeight * 0.35 + "px solid green";
+//   var nb3 = window.innerHeight * 0.35 + "px solid purple";
+
+//   nx.style.borderLeft = nw;
+//   nx.style.borderBottom = nb;
+//   nx2.style.borderLeft = nw2;
+//   nx2.style.borderBottom = nb2;
+//   nx3.style.borderLeft = nw3;
+//   nx3.style.borderBottom = nb3;
+// }
 
 
 // strengths-html page
@@ -149,103 +172,3 @@ function myPos() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// code i might need later:
-
-
-
-// // to avoid the error, the parameter [sendResponse] is necessary!
-// chrome.runtime.onmouseover.addListener(function(msg, sender, sendResponse) {
-//   // do something ...
-
-//   // this line seems meaningless but you have to invoke it to avoid error.
-//   sendResponse({damn: true});
-// });
-
-// function myDiv() {
-  //   var x = document.getElementById("def");
-  //   // var y = document.getElementById("contactMe")
-  
-  //   // console.log("moused over.");
-  
-  //   if (x.style.display === "none") {
-  //     x.style.display = "block";
-  //     // y.style.display = "none";
-  //   } else {
-  //     x.style.display = "none";
-  //     // y.style.display = block;
-  //   }
-  // }
-  
-  // function myResp() {
-  //   var x = document.getElementById("responsibility");
-  
-  //   // console.log("moused over.");
-  
-  //   if (x.style.display === "none") {
-  //     x.style.display = "block";
-  //   } else {
-  //     x.style.display = "none";
-  //   }
-  // }
-  
-  // function myDev() {
-  //   var x = document.getElementById("developer");
-  
-  //   // console.log("moused over.");
-  
-  //   if (x.style.display === "none") {
-  //     x.style.display = "block";
-  //   } else {
-  //     x.style.display = "none";
-  //   }
-  // }
-  
-  // function myAch() {
-  //   var x = document.getElementById("achiever");
-  
-  //   // console.log("moused over.");
-  
-  //   if (x.style.display === "none") {
-  //     x.style.display = "block";
-  //   } else {
-  //     x.style.display = "none";
-  //   }
-  // }
-  
-  // function myBel() {
-  //   var x = document.getElementById("belief");
-  
-  //   // console.log("moused over.");
-  
-  //   if (x.style.display === "none") {
-  //     x.style.display = "block";
-  //   } else {
-  //     x.style.display = "none";
-  //   }
-  // }
-  
-  
-  // function myPos() {
-  //   var x = document.getElementById("positivity");
-  
-  //   // console.log("moused over.");
-  
-  //   if (x.style.display === "none") {
-  //     x.style.display = "block";
-  //   } else {
-  //     x.style.display = "none";
-  //   }
-  // }

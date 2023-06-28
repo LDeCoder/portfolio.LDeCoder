@@ -127,7 +127,7 @@ li {
 }
 
 h3 {
-  color: var(--main-accent2-color);
+  color: var(--main-accent4-color);
   text-align: center;
 }
 
@@ -177,15 +177,16 @@ h1 {
   outline: none;
   font-size: 1em;
 }
-*/ .active,
+
+.active,
 .collapsible:hover {
-  background-color: var(--main-accent2-color);
+  background-color: var(--main-accent3-color);
   color: var(--main-text-color);
 }
 
 .active,
 .collapsibleButton:hover {
-  background-color: var(--main-accent2-color);
+  background-color: var(--main-accent3-color);
   color: text;
 }
 .content {
@@ -287,9 +288,9 @@ h1 {
   margin-right: 3%;
   flex-direction: column;
 }
-/* text-align: right;
-  display: block;
-  margin-right: 3%; 
+
+.youGetMe a {
+  color: var(--main-accent3-color);
 }
 
 /* .style {
@@ -514,7 +515,7 @@ h1 {
   animation: revRotationXY 6s 1s 6;
   position: absolute;
 } */
-
+/* 
 #triangles {
   display: flex;
   /* flex-direction: column;
@@ -522,9 +523,8 @@ h1 {
   align-content: center;
   justify-content: space-between;
   align-items: center; */
-}
 
-#triangle {
+/* #triangle {
   border-right: 0px solid transparent;
   position: absolute;
   z-index: -5;
@@ -540,7 +540,7 @@ h1 {
   border-right: 0px solid transparent;
   position: absolute;
   z-index: -2;
-}
+} */
 
 .contactInfo {
   z-index: 0;

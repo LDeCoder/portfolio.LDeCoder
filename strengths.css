@@ -3,6 +3,10 @@ body {
   color: var(--main-background-color);
   font-family: "Mulish", sans-serif;
   width: 100vw;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
@@ -13,27 +17,28 @@ a {
 .contactInfo {
   color: var(--main-accent4-color);
   list-style: none;
+  text-align: right;
+  margin-top: 55%;
+  padding: 20px;
 }
 
 header {
-  padding: 30px;
-  height: 350px;
-  width: cover;
+  width: 75vw;
+  color: var(--main-text-color);
   background: var(--main-background-color);
-  padding: 20px;
+  padding: 30px;
   background-image: var(--main-bg-img);
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 70%;
+  rotate: 352deg;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .loriLogo {
-  height: 30%;
-  margin: 10px;
-  padding: 10px;
+  rotate: 125deg;
 }
 
 .strengths {
@@ -50,6 +55,7 @@ button {
   background-color: transparent;
   border-style: dotted;
   border-width: 10px;
+  rotate: 352deg;
 }
 
 #responsibility,
@@ -72,8 +78,10 @@ button {
 
 .info {
   color: var(--main-text-color);
-  font-size: 1.5em;
-  width: 70%;
+  font-size: 1em;
+  width: 25%;
+  text-align: right;
+  padding: 20px;
 }
 
 .myInfo {
@@ -117,53 +125,22 @@ button {
   border-color: 8px dotted var(--main-text-color);
 }
 
-/* @keyframes twirl {
-  from {
-    transform: rotateY(0deg);
+@media screen and (max-width: 855px) {
+  header {
+    width: 70vw;
+    margin: 0;
+    text-align: right;
+    background-size: 70%;
   }
-  to {
-    transform: rotateY(360deg);
-  }
-  from {
-    opacity: 0%;
-  }
-  to {
-    opacity: 100%;
-  }
-} */
 
-@media screen and (max-width: 80px) {
-  .strengths {
-    margin-top: 45%;
+  .info {
+    width: 85%;
+    font-size: 1em;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .strengths {
-    margin-top: 65%;
-  }
-
+@media screen and (max-width: 295px) {
   button {
-    font-size: 100%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .strengths {
-    margin-top: 105%;
-  }
-
-  button {
-    font-size: 100%;
-  }
-}
-
-@media screen and (max-width: 280px) {
-  .strengths {
-    margin-top: 145%;
-  }
-
-  button {
-    font-size: 100%;
+    font-size: 1em;
   }
 }

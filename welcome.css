@@ -52,26 +52,29 @@ nav a {
   height: auto;
   color: var(--main-background-color);
   font-size: 2em;
+  list-style: none;
+}
+
+.border {
+  list-style: none;
 }
 
 .line1 {
-  height: 55px;
+  height: 40px;
   background-color: var(--main-accent3-color);
   border: none;
 }
 
 .line2 {
-  height: 45px;
+  height: 40px;
   background-color: var(--main-accent2-color);
   border: none;
-  margin-top: -20px;
 }
 
 .line3 {
   height: 40px;
   background-color: var(--main-accent1-color);
   border: none;
-  margin-top: -20px;
 }
 
 /* color picking buttons and themes: */

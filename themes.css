@@ -1,7 +1,9 @@
 :root,
+
 /* default */
 :root.default {
   --main-bg-img: url("images/logo.black.png");
+  --main-logo-img: url("images/logoLD.png");
   --main-background-color: #dbd9d9;
   --main-text-color: #a5a5a5;
   --main-accent2-color: #434347;
@@ -13,6 +15,7 @@
 
 :root.patriotic {
   --main-bg-img: url("images/logo.offWhite.png");
+  --main-logo-img: url("images/logoLD.png");
   --main-background-color: #09022c;
   --main-text-color: #79b3ea;
   --main-accent1-color: #8c090b;
@@ -24,6 +27,7 @@
 
 :root.myStyle {
   --main-bg-img: url("images/logo.hpink.png");
+  --main-logo-img: url("images/logoLD.png");
   --main-background-color: #09022c;
   --main-text-color: #f6f0dd;
   --main-accent1-color: #91268f;
@@ -35,6 +39,7 @@
 
 :root.soJaded {
   --main-bg-img: url("images/logo.offWhite.png");
+  --main-logo-img: url("images/logoLD.png");
   --main-background-color: #04332c;
   --main-text-color: #79f8e5;
   --main-accent1-color: #044d42;
@@ -46,6 +51,7 @@
 
 :root.that70vibe {
   --main-bg-img: url("images/logo.lime.png");
+  --main-logo-img: url("images/logoLD.png");
   --main-background-color: #231002;
   --main-text-color: #f7e38c;
   --main-accent1-color: #db6008;
@@ -57,6 +63,7 @@
 
 :root.aaah80s {
   --main-bg-img: url("images/logo.white.png");
+  --main-logo-img: url("images/logoLD.png");
   --main-background-color: #080b09;
   --main-text-color: white;
   --main-accent4-color: #c2de08;
@@ -66,18 +73,9 @@
   --main-test-color: rgb(9, 143, 225);
 }
 
-/* :root.redWhiteBlue {
-  --main-background-color: gray;
-  --main-accent3-color: red;
-  --main-text-color: white;
-  --main-accent2-color: blue;
-  --main-accent4-color: rgb(195, 166, 1);
-  --main-accent1-color: navy;
-  --main-test-color: hotpink;
-} */
-
 :root.soDiva {
   --main-bg-img: url("images/logo.black.png");
+  --main-logo-img: url("images/logoLD.png");
   --main-background-color: #eae5e5;
   --main-text-color: #0aa317;
   --main-accent1-color: #d913dc;
@@ -89,6 +87,7 @@
 
 :root.prettyInPink {
   --main-bg-img: url("images/logo.white.png");
+  --main-logo-img: url("images/logoLD.png");
   --main-background-color: #e09ac4;
   --main-text-color: #ffffff;
   --main-accent3-color: #f5c0ea;
@@ -98,17 +97,19 @@
   --main-test-color: #008000;
 }
 
-:root.demBoyz {
+:root.myTeam {
   --main-bg-img: url("images/logo.white.png");
+  --main-logo-img: url("images/logoLD.png");
   --main-background-color: #02022e;
   --main-accent2-color: #ffffff;
   --main-text-color: #a5a9a9;
-  --main-accent3-color: #787b80;
-  --main-accent1-color: #d1ede784;
+  --main-accent1-color: #787b80;
+  --main-accent3-color: #d1ede784;
   --main-accent4-color: #f608ea;
   --main-test-color: #40e0d0;
 }
 
+/* future theme ideas */
 /* :root.pickFaveColor {
   --main-background-color: rgb(16, 16, 17);
   --main-accent4-color: rgb(160, 158, 158);

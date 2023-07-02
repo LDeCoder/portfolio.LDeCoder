@@ -39,9 +39,9 @@ header {
 }
 
 .strengths {
-  margin-top: 5%;
+  /* margin-top: 5%; */
   text-align: center;
-  padding: 0 25%;
+  /* padding: 0 25%; */
 }
 
 button {
@@ -76,7 +76,7 @@ button {
 .info {
   color: var(--main-text-color);
   font-size: 1em;
-  width: 25%;
+  width: 85%;
   text-align: right;
   padding: 20px;
 }
@@ -112,13 +112,31 @@ button {
   width: 50px;
 }
 
-.goHome button {
-  cursor: pointer;
-  margin-top: 50px;
-  width: 100vw;
+.container {
+  display: flex;
+  padding: 25px;
   font-size: 2em;
+  list-style: none;
+}
+
+.container2 {
+  padding: 20px;
+}
+
+.line1,
+.line2,
+.line3 {
+  background-color: var(--main-background-color);
   color: var(--main-text-color);
-  background-color: var(--main-accent4-color);
+  list-style: none;
+  padding: 10px;
+}
+
+.goHome {
+  cursor: pointer;
+  font-size: 0.55em;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
   border-color: 8px dotted var(--main-text-color);
 }
 

@@ -16,9 +16,6 @@
   </head>
 
   <header>
-    <div class="loriLogo">
-      <!-- <img src="var(--main-bg-img)" /> -->
-    </div>
     <div id="contactMe">
       <ul class="contactInfo">
         <li>Lori Davis | LDeCoder</li>
@@ -44,6 +41,19 @@
           offer your company.</em
         >
       </p>
+    </div>
+    <div class="goHome">
+      <div class="container">
+        <li>
+          <a href="index.html" class="line1">Welcome to My Website!</a>
+        </li>
+        <li>
+          <a href="contact.html" class="line3">Let's Connect!</a>
+        </li>
+        <li>
+          <a href="strengths.html" class="line2">Learn My Strengths</a>
+        </li>
+      </div>
     </div>
   </header>
   <body>
@@ -207,9 +217,63 @@
         </div>
       </div>
     </div>
-
-    <div class="goHome">
-      <a href="home.html"><button>Click to return to home</button></a>
+    <div class="container2">
+      <div id="themeS-select" class="toggle-container">
+        <button
+          class="theme theme-btn default"
+          onclick="setTheme('default')"
+          title="default"
+          style="background-image: url('images/logoLD.png')"
+        ></button>
+        <button
+          class="theme theme-btn myStyle"
+          onclick="setTheme('myStyle')"
+          title="My Style"
+          style="background-image: url('images/myStyle50.png')"
+        ></button>
+        <button
+          class="theme theme-btn soJaded"
+          onclick="setTheme('soJaded')"
+          title="So Jaded"
+          style="background-image: url('images/soJaded50.png')"
+        ></button>
+        <button
+          class="theme theme-btn soDiva"
+          onclick="setTheme('soDiva')"
+          title="So Diva"
+          style="background-image: url('images/soDiva50.png')"
+        ></button>
+        <button
+          class="theme theme-btn patriotic"
+          onclick="setTheme('patriotic')"
+          title="Patriotic"
+          style="background-image: url('images/patriotic50.png')"
+        ></button>
+        <button
+          class="theme theme-btn that70vibe"
+          onclick="setTheme('that70vibe')"
+          title="That 70s vibe"
+          style="background-image: url('images/vibes50.png')"
+        ></button>
+        <button
+          class="theme theme-btn aaah80s"
+          onclick="setTheme('aaah80s')"
+          title="Ahhhh the 80s"
+          style="background-image: url('images/ahh80s50.png')"
+        ></button>
+        <button
+          class="theme theme-btn prettyInPink"
+          onclick="setTheme('prettyInPink')"
+          title="prettyInPink"
+          style="background-image: url('images/prettyInPink50.png')"
+        ></button>
+        <button
+          class="theme theme-btn patriotic"
+          onclick="setTheme('myTeam')"
+          title="my Team"
+          style="background-image: url('images/myTeam.png')"
+        ></button>
+      </div>
     </div>
   </body>
   <script src="script.js"></script>

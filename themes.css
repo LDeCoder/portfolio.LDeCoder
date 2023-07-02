@@ -136,3 +136,46 @@
   --main-accent3-color: rgb(0, 0, 0) ;
   --main-accent4-color: teal;
   --main-test-color: GREEN; */
+
+.sticky {
+  position: sticky;
+  top: 20px;
+}
+
+.theme-btn {
+  width: 225px;
+  height: 150px;
+  border: 25px solid transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 10px solid white;
+  background-color: white;
+}
+
+.box {
+  height: 15px;
+  background-color: var(--main-accent1-color);
+}
+
+.box2 {
+  height: 15px;
+  background-color: var(--main-accent2-color);
+}
+
+.box3 {
+  height: 15px;
+  background-color: var(--main-accent3-color);
+}
+
+.box4 {
+  height: 15px;
+  background-color: var(--main-accent4-color);
+}
+
+#themeS-select {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

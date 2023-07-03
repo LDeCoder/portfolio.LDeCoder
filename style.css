@@ -86,6 +86,14 @@ a :visited {
   flex-direction: row;
 }
 
+.strengths p {
+  display: none;
+}
+
+.strengths:hover p {
+  display: block;
+}
+
 .container {
   display: flex;
   flex-direction: column;

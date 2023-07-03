@@ -80,8 +80,7 @@ nav a {
 /* color picking buttons and themes: */
 
 .theme-btn {
-  width: 150px;
-  height: 95px;
+  width: 10%;
   padding: 20px;
   background-size: contain;
   background-repeat: no-repeat;
